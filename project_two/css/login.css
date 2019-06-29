@@ -1,0 +1,208 @@
+/*登录界面的样式修饰*/
+
+/*logo所在行的修饰*/
+.logo{
+    width:100%;height:100px;
+    /*background:orange;*/
+    margin-bottom:45px;
+}
+
+.logo .logo-center{
+    width:980px;height:100px;
+    margin:0 auto;
+    /*background:green;*/
+    
+}
+
+.logo .logo-center a{
+    width:270px;height:100px;
+    display: inline-block;
+    padding-top:13px;
+}
+
+.logo .logo-center a img{
+    position: relative;
+    left:-37px;
+}
+
+/*内容板块*/
+.content{/*最外面的大盒子*/
+    width:100%;min-height:100px;
+    /*background:gray;*/
+}
+
+.content .content-cen{/*版心的样式*/
+    width:980px;min-height: 100px;
+    /*background:deeppink;*/
+    margin:0 auto;
+}
+
+.content .content-cen .content-cenL{
+    float: left;
+}
+
+.content .content-cen:after,.content:after{/*万能清除法；防止高度塌陷*/
+    content:".";
+    clear:both;
+    display:block;
+    height:0;
+    visibility:hidden;
+}
+
+.content .content-cen img{/*清除图片默认的3像素*/
+    vertical-align: top;
+    width:640px;height:432px;
+}
+
+/*右边的内容部分*/
+.content .content-cen .content-cenR{
+    width:340px;height:480px;
+    /*background:greenyellow;*/
+    border:1px solid #ccc;
+    float:left;
+    box-sizing: border-box;
+}
+
+.content .content-cen .content-cenR .conTitle{
+    width:338px;height:35px;
+    /*background:pink;*/
+    margin-bottom:30px;
+}
+
+.content .content-cen .content-cenR .conTitle p{/*对标题的具体修饰*/
+    float:left;
+    width:112px;height:35px;
+    text-align: center;
+    line-height:35px;
+    font-size:14px;
+    color:#666;
+    font-weight:bold;
+}
+
+/*form表单部分的修饰*/
+.content .content-cen .content-cenR ._form{
+    height:280px;width:340px;
+    /*background:orange;*/
+}
+
+.content .content-cen .content-cenR ._form p{
+    display: inline-block;
+    margin-left:24px;
+    font-size:14px;color:#666;
+}
+
+.content .content-cen .content-cenR ._form input{
+    width:230px;height:26px;
+}
+
+.content .content-cen .content-cenR ._form span{
+    margin-left:95px;
+    font-size:12px;
+    color:#999;
+}
+
+.content .content-cen .content-cenR ._form strong{
+    font-size:12px;color:#333;
+}
+
+.content .content-cen .content-cenR ._form div{
+    background:url( "../images/registerPic/line1.jpg" ) repeat-x;
+    width:103px;height:32px;
+    text-align: center;
+    line-height:32px;
+    font-size:16px;
+    color:#fff;
+    font-weight:bold;
+    border-radius:8px 8px 8px 8px;
+    margin-top:20px;
+    display:inline-block;
+}
+.content .content-cen .content-cenR ._form .searchPwd{
+    margin-left:10px;
+    color:#333;
+    font-size:12px;
+    text-decoration: underline;
+}
+
+.content .content-cen .content-cenR .tishi{
+    height:57px;width:320px;
+    /*background:green;*/
+    line-height:57px;
+    margin-left:10px;
+    border-top:1px solid #f1f1f1;
+}
+.content .content-cen .content-cenR .tishi span{
+    font-size:12px;
+    color:#333;
+}
+
+/*合作的网站*/
+.hezuo{
+    width:300px;height:33px;
+    background:#efefef;
+    font-size:12px;
+    color:#333;
+    margin-left:18px;
+    line-height:33px;
+    padding-left:10px;
+    font-weight:bold;
+}
+
+/*图标*/
+.tubiao{
+    width:310px;height:auto;
+    margin-left:18px;
+}
+
+.tubiao:after{/*万能清除法；防止高度塌陷*/
+    content:".";
+    clear:both;
+    display:block;
+    height:0;
+    visibility:hidden;
+}
+
+.tubiao li{
+    float:left;
+    width:103px;height:29px;
+    background:red;
+    border-right:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    text-align:center;
+    line-height:29px;
+    font-size:12px;color:#333;
+}
+
+.tubiao .first{
+    background:url( "../images/loginPic/icon_login.png" ) no-repeat;
+    background-position:10px -5px;
+    border-left:1px solid #ccc;
+    width:99px;
+}
+
+.tubiao .second{
+    background:url( "../images/loginPic/icon_login.png" ) no-repeat;
+    background-position:2px -55px;
+}
+
+.tubiao .third{
+    background:url( "../images/loginPic/icon_login.png" ) no-repeat;
+    background-position:9px -101px;
+}
+
+/*友情链接的样式*/
+.footer{
+    width:980px;height:auto;
+    padding-top:25px;
+    margin:0 auto;
+    text-align: center;
+}
+
+.footer span , .footer a{
+    font-size:12px;
+    color:#333;
+}
+
+.footer a:hover{
+    border-bottom:1px solid #000;
+}

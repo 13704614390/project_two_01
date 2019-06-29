@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="../iconfont/iconfont.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/shopCar.css">
+</head>
+<body>
+    <!--登录注册的导航-->
+    <div class="nav-login">
+        <div class="nav-login-center">
+            <p>欢迎来到邦购网，全场实付满99元包邮，本网站多为断码限量商品，支持14天无理由退换货，不支持退差价，感谢理解。</p>
+            <ul>
+                <li class="firstLi">
+                    <a href="login.html" style="padding-right:17px;padding-left:10px;" class="loginH">
+                        登录
+                        <ol id="loginStyle" >
+                            <h2>QQ账户登录</h2>
+                            <h2>支付宝登录</h2>
+                            <h2>微信账户登录</h2>
+                        </ol>
+
+
+                    </a>
+                    <a href="register.html" style="padding:0 10px 0 17px">注册</a>
+                </li>
+                <li class="banggou">
+                    <a href="#" style="padding-left:5px;padding-right:5px;">
+                        我的邦购
+                        <em class="sub" style="margin-left:6px"></em>
+                    </a>
+                    <div >
+                        <h3 style="padding-top:15px;">我的订单</h3>
+                        <h3>我的积分</h3>
+                        <h3>我的点赞</h3>
+                        <h3>收货地址</h3>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" style="padding:0 11px">会员中心</a>
+                </li>
+                <li class="dlBigBox" >
+                    <!-- <img src="../images/indexPic/iphone-vertical.png" style="padding:0 4px 0 11px;"> -->
+                    <em class="iconfont" style="color:red!important">&#xe615;</em>
+                    <a href="#" class="dl" >
+                        
+                        下载APP
+                        
+                        <img style="padding:5px;" src="../images/indexPic/mbshop_pic_erweima.jpg" class="erweimaDL">
+                    </a>
+                    <i class="sub1" style="margin-right:11px;"></i>
+                </li>
+                <li>
+                    <a href="#" style="padding-left:11px;">微博</a>
+                    <a href="#" style="margin-left:9px" class="weChat">
+                        微信
+                        <img src="../images/indexPic/mbshop_pic_erweima.jpg" class="erweima">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!--logo所在行-->
+    <div class="logo">
+        <div class="logo-cen">
+            <img src="../images/registerPic/mbshop_new_logo2.png" alt="">
+            <span></span>
+        </div>
+    </div>
+
+    <!--标题-->
+    <div class="title">
+        <div class="title-cen">
+            <h2>购物袋</h2>
+        </div>
+    </div>
+
+    <!--购物车内容标题-->
+    <div class="shopCar">
+        <div class="shopCar-cen">
+            <div class="shopCar-zbt">
+                <input type="checkbox"><span>全选</span><i>商品信息</i><u>颜色尺码</u><em>单价(元)</em><b>数量</b>
+                <strong>小计</strong><s>操作</s>
+            </div>
+        </div>
+    </div>
+
+    <!--购物车内容-->
+    <div class="shopCarCon">
+        <div class="shopCarCon-cen">
+            <div class="yhInfo">
+                <span>多买优惠</span><i>再买两件，既享7.0折优惠</i>
+            </div>
+            <div class="proInfo">
+                <!-- <input type="checkbox" class="ck">
+                <div class="prosrc">
+                    <img src="../images/showPic/pro/color21.jpg" alt="">
+                </div>
+                <p>
+                    <i>【夏季新品】男休闲宽松条纹衬衫</i>
+                    <b>
+                        <span>商品编号：</span><em>225490</em>
+                    </b>
+                    <strong>
+                        不可用红包
+                    </strong>
+                </p>
+                
+                <div class="colorsize">
+                    <h2>
+                        <em>颜色：</em><i>黑色</i>
+                    </h2>
+                    <h3>
+                        <em>尺码：</em><i>L：175/96A</i>
+                    </h3>
+                </div>
+
+                <div class="yPrice">
+                    ￥169
+                </div>
+
+                <div class="jjbtn">
+                    <span>-</span><i>1</i><em>+</em>
+                </div>
+
+                <div class="xPrice">
+                    ￥169
+                </div>
+
+                <button>删除</button> -->
+            </div>
+        </div>
+    </div>
+
+    <!--结算的内容-->
+    <div class="jiesuan">
+        <div class="jiesuan-cen">
+            <input type="checkbox"><span>全选</span><i>删除选中的商品</i><u>已选商品</u><s>0</s><a href="">件</a>
+            <em>合计( 不含运费 )：</em><b>￥ 0</b><strong>去结算</strong>
+        </div>
+    </div>
+
+    <!--官方信息-->
+    <div class="offiInfo">
+        <div class="offiInfo-cen">
+            <div class="qiansan">
+                <img src="../images/indexPic/officialInfo/01.png" alt="">
+                <img src="../images/indexPic/officialInfo/02.png" alt="">
+                <img src="../images/indexPic/officialInfo/03.png" alt="">
+            </div>
+            
+            <dl>
+                <dt>
+                    <img src="../images/indexPic/officialInfo/zsss.jpg" alt="">
+                </dt>
+                <div>
+                    <img src="../images/indexPic/officialInfo/04.png" alt="">
+                    <p>在线客服</p>
+                </div>
+
+                <div>
+                    <img src="../images/indexPic/officialInfo/05.png" alt="">
+                    <p>意见反馈</p>
+                </div>
+
+                <div style="border:none;">
+                    <img src="../images/indexPic/officialInfo/06.png" alt="">
+                    <p>问卷调查</p>
+                </div>
+            </dl>
+        </div>
+        
+    </div>
+    
+    <!--底部信息-->
+    <div class="footer">
+        <div class="footer-title">
+            <div class="footer-title-center">
+                <a href="index.html">新手指南</a>
+                <a href="index.html">购物指南</a>
+                <a href="index.html">配送方式</a>
+                <a href="index.html">支付方式</a>
+                <a href="index.html">售后服务</a>
+                <a href="index.html">联系方式</a>
+            </div>
+        </div>
+        <div class="footer-cen">
+            <div class="footer-list">
+                <ul>
+                    <li>
+                        <a href="index.html">注册新用户</a>
+                    </li>
+                    <li>
+                        <a href="index.html">用户协议</a>
+                    </li>
+                    <li>
+                        <a href="index.html">找回密码</a>
+                    </li>
+                </ul>
+
+                <ul style="margin-left:135px;">
+                    <li>
+                        <a href="index.html">红包使用说明</a>
+                    </li>
+                    <li>
+                        <a href="index.html">购物流程</a>
+                    </li>
+                    <li>
+                        <a href="index.html">订单状态</a>
+                    </li>
+                    <li>
+                        <a href="index.html">邦购币绑定与使用</a>
+                    </li>
+                </ul>
+
+                <ul style="margin-left:101px;">
+                    <li>
+                        <a href="index.html">配送范围</a>
+                    </li>
+                    <li>
+                        <a href="index.html">订单拆分</a>
+                    </li>
+                    <li>
+                        <a href="index.html">商品验货与签收</a>
+                    </li>
+                </ul>
+
+                <ul style="margin-left:112px;">
+                    <li>
+                        <a href="index.html">发票制度</a>
+                    </li>
+                    <li>
+                        <a href="index.html">支付方式</a>
+                    </li>
+                </ul>
+
+                <ul style="margin-left:147px;">
+                    <li>
+                        <a href="index.html">退换货政策</a>
+                    </li>
+                    <li>
+                        <a href="index.html">退还办理流程</a>
+                    </li>
+                    <li>
+                        <a href="index.html">退款声明</a>
+                    </li>
+                </ul>
+
+                <ul style="margin-left:124px;">
+                    <li>
+                        <a href="index.html">在线客服</a>
+                    </li>
+                    <li>
+                        <a href="index.html">咨询电话</a>
+                    </li>
+                </ul>
+            </div>
+
+            <p>
+                <span>CopyRight © 2000-2019, 版权所有 上海美特斯邦威服饰股份有限公司 banggo.com </span>
+                <a>沪ICP备05033127号</a>
+                <a>营业执照</a>
+            </p>
+
+            <div class="shangbiao" >
+                <img style="border:1px solid #e6e5e5" src="../images/indexPic/beian.png" alt="">
+                <img style="border:1px solid #e6e5e5" src="../images/indexPic/shgs.png" alt="">
+                <img style="border:1px solid #840002" src="../images/indexPic/brand.jpg" alt="">
+            </div>
+        </div>
+
+        <!--小火箭-->
+        <div class="huojian">
+            <a href="javascript:void(0)" style="background:url( '../images/indexPic/huojian.png' ) 0 -1060px no-repeat;">
+                
+            </a>
+            <a href="index.html" style="background:url( '../images/indexPic/kefu.png' )  no-repeat" >
+
+            </a>
+        </div>
+    </div>
+</body>
+<script src="../js/jquery-1.11.1.js"></script>
+<script src="../js/common.js"></script>
+<script>
+    window.onload = function(){
+        var str = localStorage.getItem( "prolist" );
+        $( ".jiesuan .jiesuan-cen a" ).css( "marginLeft" , 645 );
+        /*将数据库中的内容全部加载到页面上-----开始*/
+        if( str != null ){
+            var str1 = "";
+            var arr = JSON.parse( str );
+            //console.log( arr );
+            arr.forEach( ( pro ) => {
+                str1 +=`
+                <div class="proInfo">
+                    <input type="checkbox" class="ck">
+                    <div class="prosrc">
+                        <img src="${ pro.ppsrc }" alt="">
+                    </div>
+                    <p>
+                        <i>${ pro.pname }</i>
+                        <b>
+                            <span>商品编号：</span><em>${ pro.pid }</em>
+                        </b>
+                        <strong>
+                            不可用红包
+                        </strong>
+                    </p>
+                    
+                    <div class="colorsize">
+                        <h2>
+                            <em>颜色：</em><i>${ pro.pcolor }</i>
+                        </h2>
+                        <h3>
+                            <em>尺码：</em><i>${ pro.psize }</i>
+                        </h3>
+                    </div>
+
+                    <div class="yPrice">
+                        ${ pro.pxprice }
+                    </div>
+
+                    <div class="jjbtn">
+                        <span con="-1">-</span><i>${ pro.pnum }</i><em con="1">+</em>
+                    </div>
+
+                    <div class="xPrice">
+                        ${ pro.pxprice.split( " " )[0] + " " + (pro.pxprice.split( " " )[1] * pro.pnum).toFixed( 2 ) }
+                    </div>
+
+                    <button>删除</button>
+                </div>
+                `;
+            } )
+            $( ".shopCarCon .shopCarCon-cen .proInfo" ).css( "height" , "auto" );
+            $( ".shopCarCon .shopCarCon-cen .proInfo" ).html( str1 );
+        }
+        /*将数据库中的内容全部加载到页面上-----结束*/        
+        
+
+        /*点击删除按钮的时候，删除页面上的元素以及数据库中的内容----开始*/
+        $( ".shopCarCon .shopCarCon-cen .proInfo" ).find( "button" ).on( "click" , function(){
+            //alert();
+            $( this ).parent().remove();    //移出页面上的元素
+
+            /*移除数据库中的内容---开始*/
+            var $delid = $( this ).parent().find( "p" ).find( "b" ).find( "em" ).html();
+            var brr = JSON.parse( localStorage.getItem( "prolist" ) );
+            //console.log( brr )
+            brr.forEach( ( pro , index ) => {
+                if( pro.pid == $delid ){
+                    //console.log( index );
+                    brr.splice( index , 1 );
+                    //console.log( brr );
+                    localStorage.setItem( "prolist" , JSON.stringify( brr ) );
+
+                    return ;
+                }
+            } )
+            /*移除数据库中的内容---结束*/
+        } )
+        /*点击删除按钮的时候，删除页面上的元素以及数据库中的内容----结束*/
+
+        /*点击减号的按钮，页面和数据库中的数据发生变化，后面的小计也发生相应的变化------开始*/
+        $( ".shopCarCon .shopCarCon-cen .proInfo" ).find( ".jjbtn" ).find( "span" ).on( "click" , function(){
+            //alert();
+            if( $( this ).next().html() != 1 ){
+                //alert();
+
+                var jid = $( this ).parent().parent().find( "p" ).find( "b" ).find( "em" ).html();//获得商品ID
+                //console.log( jid );
+                var jarr = JSON.parse( localStorage.getItem( "prolist" ) );
+                jarr.forEach( ( pro , index ) => {
+                    if( pro.pid == jid ){
+                        pro.pnum --;
+                        
+                        localStorage.setItem( "prolist" , JSON.stringify( jarr ) );
+                        $( this ).next().html( pro.pnum );//
+
+                        $( this ).parent().parent().find( ".xPrice" ).html( 
+                         //console.log( Number( $( this ).next().html(  ) ))
+                         //console.log( Number( pro.pxprice.split( " " )[ 1 ]) )
+                         "￥ " + (Number( $( this ).next().html(  ) ) * Number( pro.pxprice.split( " " )[ 1 ])).toFixed(2) 
+                         );
+
+                        jiesuan();
+                    }
+                } )
+            }
+        } )
+        /*点击减号的按钮，页面和数据库中的数据发生变化，后面的小计也发生相应的变化------结束*/
+
+        /*点击加号的按钮，页面和数据库中的数据发生变化，后面的小计也发生相应的变化------开始*/
+        $( ".shopCarCon .shopCarCon-cen .proInfo" ).find( ".jjbtn" ).find( "em" ).on( "click" , function(){
+            //alert();
+            var jiaid = $( this ).parent().parent().find( "p" ).find( "b" ).find( "em" ).html();//获得商品ID
+            //console.log( jiaid );
+            var jiaarr = JSON.parse( localStorage.getItem( "prolist" ) );
+            
+            jiaarr.forEach( ( prop , index ) => {
+                if( prop.pid == jiaid ){
+                    prop.pnum ++;
+                    localStorage.setItem( "prolist" , JSON.stringify( jiaarr ) );
+                    $( this ).prev().html( prop.pnum );//
+
+                    $( this ).parent().parent().find( ".xPrice" ).html( 
+                        //console.log( Number( $( this ).next().html(  ) ))
+                        //console.log( Number( pro.pxprice.split( " " )[ 1 ]) )
+                        "￥ " + (Number( $( this ).prev().html(  ) ) * Number( prop.pxprice.split( " " )[ 1 ])).toFixed( 2 ) 
+                    );
+
+                    jiesuan();
+                }
+            } )
+        } )
+        /*点击加号的按钮，页面和数据库中的数据发生变化，后面的小计也发生相应的变化------结束*/
+
+        /*计算商品总量和总钱数的函数------开始*/
+        function jiesuan(){
+            var proNum = 0;
+            var moneySum = 0;
+            $( ".shopCarCon .shopCarCon-cen .proInfo" ).find( "input:checked" ).each( function( index , ele ){
+                //console.log( ele );
+                proNum += Number($( this ).parent().find( ".jjbtn" ).find( "i" ).html());
+                moneySum += ( Number($( this ).parent().find( ".xPrice" ).html().split( "￥" )[ 1 ].split( " " )[ 1 ]) );
+            } )
+            $( ".jiesuan .jiesuan-cen" ).find( "s" ).html( proNum );
+            $( ".jiesuan .jiesuan-cen" ).find( "b" ).html( "￥ " + moneySum );
+            //console.log( moneySum );
+
+        }
+        /*计算商品总量和总钱数的函数------结束*/
+
+        /*两个全选按钮的设置----开始*/
+        $( ".jiesuan .jiesuan-cen input" ).click( function(){
+            //alert();
+            //console.log( $( this ).prop( "checked" ) );
+            $( ".shopCarCon .shopCarCon-cen .proInfo input" ).prop( "checked" , $( this ).prop( "checked" ) );
+
+            jiesuan();
+        } )
+
+        $( ".shopCar .shopCar-cen .shopCar-zbt input" ).click( function(){
+            //alert();
+            //console.log( $( this ).prop( "checked" ) );
+            $( ".shopCarCon .shopCarCon-cen .proInfo input" ).prop( "checked" , $( this ).prop( "checked" ) );
+
+            jiesuan();
+            //console.log( $( ".ck:checked" ).length );
+        } )
+        /*两个全选按钮的设置----结束*/
+
+        /*对复选框设置点击事件---开始*/
+        $( ".shopCarCon .shopCarCon-cen .proInfo" ).on( "click" , "input" , function(){
+            //alert();
+            jiesuan();
+        } )
+        /*对复选框设置点击事件---结束*/
+
+        /*小火箭----开始*/
+        $( window ).scroll( function(){
+            var t = $( document ).scrollTop();
+            //console.log( t );
+
+            if( t < 100 ){//滚动条滚走距离小于100的时候隐藏，大于100的时候显示
+                $( ".huojian a" ).eq( 0 ).css( "display" , "none" );
+            }else{
+                $( ".huojian a" ).eq( 0 ).css( "display" , "block" );
+            }
+
+            /*吸底效果----开始*/
+            var titleTop = $( ".title" ).offset().top;
+            var ins = window.innerHeight - $( ".jiesuan" ).height();
+            var yins = document.getElementsByClassName( "jiesuan" )[0].offsetTop;
+            //console.log( window.innerHeight );
+            //console.log( $( ".jiesuan" ).height() )
+            //console.log( titleTop );
+            if( t < titleTop ){
+                $( ".jiesuan" ).css( { 
+                    "position" : "fixed",
+                    "top" : ins - 30
+                 } )
+            }else{
+                $( ".jiesuan" ).css( { 
+                    "position" : "relative",
+                    "top": 0
+                 } );
+            }
+            /*吸底效果----结束*/
+        } )
+        
+        $( ".huojian a" ).eq( 0 ).click( function(){//点击的时候回到顶部（动画）
+            //alert();
+            //var t = $( document ).scrollTop();
+            $( "body,html" ).animate( { scrollTop : 0 } , 1000 );
+        } )
+        
+        /*小火箭----结束*/
+    }
+</script>
+</html>

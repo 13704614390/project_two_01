@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册页面</title>
+    <link rel="stylesheet" href="../iconfont/iconfont.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/register.css">
+</head>
+<body>
+    <!--logo所在行-->
+    <div class="logo">
+        <div class="logo-center">
+            <a href="index.html">
+                <img src="../images/registerPic/mbshop_new_logo2.png" alt="">
+            </a>
+        </div>
+    </div>
+
+    <!--注册标题-->
+    <div class="login-title">
+        <div class="login-title-center">
+            <h2>手机注册</h2>
+        </div>
+    </div>
+
+    <!--注册内容开始-->
+    <div class="login-con">
+        <div class="login-con-cen">
+            <div class="left">
+                <h2>第一步：填写手机账户信息（以下内容均为必填）</h4>
+                <p>用户名：</p><input class="uname" type="text" style="margin-bottom:35px;">
+                <div class="guize">4-20个字符，一个汉字为两个字符，推荐使用中文会会员名字。一旦注册成功会员名将不能修改。</div><br>
+                <h3 style="position:absolute;font-size:12px;top:254px;left:321px;"></h3>
+                <p>密　码：</p><input class="upwd" type="text" style="margin-bottom:30px;">
+                <span>请输入您的密码</span><br>
+                <h3 style="position:absolute;font-size:12px;top:322px;left:321px;"></h3>
+                <p>验证码：</p><input class="uyzm" style="width:125px;height:28px;border:1px solid #ababab;" type="text" style="margin-bottom:25px;"><em style="position:relative;top:2px;margin-right:5px;margin-left:5px;display: inline-block;width:110px;height:32px;text-align: center;line-height: 32px;"></em><span>换一张</span><br>
+                <h3 style="position: relative;top:4px;left:107px;font-size:12px;margin-bottom:15px;height:14px;"></h3>
+                <div class="yzmbtn">注册</div>
+                
+            </div>
+            <div class="right">
+                <h2>邦购网欢迎你</h2>
+                <img src="../images/registerPic/grayLine.jpg" alt="">
+                <p>
+                    欢迎注册成为邦购网会员，在这里您可以享受最贴心快捷的购物服务，我们的宗旨是让每一位顾客都得到最大满意~~~
+                    美特斯邦威，不走寻常路!^_^
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!--友情链接-->
+    <div class="footer">
+        <span>美特斯邦威集团网站:</span>
+        <a href="">美特斯邦威</a> |
+        <a href="">ME&city</a> |
+        <a href="">不认识</a> |
+        <a href="index.html">邦购网</a>
+    </div>
+</body>
+<script src="../js/jquery-1.11.1.js"></script>
+<script src="../js/jquery.cookie.js"></script>
+<script src="../js/common.js"></script>
+<script>
+    /*添加随机的验证码-------开始*/
+    $ranNum = getSectionRandomNum( 1000 , 9999 );
+    $yzm = $( ".login-con .login-con-cen .left" ).find( "em" );//找到对应的em
+    $yzm.html( $ranNum );   //添加随机的验证码
+    $yzm.css( "background" , randomColor() );   //添加随机的背景色
+    
+    $useName = /^\w{3,6}$/; //用户名的正则
+    $usePwd = /^.{6,18}$/;  //密码的正则表达式
+
+    /*var $useNameV = $( ".login-con .login-con-cen .left" ).find( ".uname" ).val();
+    var $usePwdV = $( ".login-con .login-con-cen .left" ).find( ".upwd" ).val();
+    var $useYzmV = $( ".login-con .login-con-cen .left" ).find( ".uyzm" ).val();*/
+
+    //失去焦点的时候出现提示信息
+
+    /*用户名提示信息*/
+    $( ".login-con .login-con-cen .left" ).find( ".uname" ).bind( "blur" , function(){
+        if( $useName.test( $( ".login-con .login-con-cen .left" ).find( ".uname" ).val() ) ){
+            $( ".login-con .login-con-cen .left" ).find( "h3" ).eq( 0 ).html( "用户名可用" )
+                .css( { 
+                    "color" : "rgb(0, 128, 0)"
+                 } );
+        }else{
+            $( ".login-con .login-con-cen .left" ).find( "h3" ).eq( 0 ).html( "用户名不合法" )
+                .css( { 
+                    "color" : "rgb(255, 0, 0)"
+                 } );
+        }
+    } )
+
+    /*密码提示信息*/
+    $( ".login-con .login-con-cen .left" ).find( ".upwd" ).bind( "blur" , function(){
+        if( $usePwd.test( $( ".login-con .login-con-cen .left" ).find( ".upwd" ).val() ) ){
+            $( ".login-con .login-con-cen .left" ).find( "h3" ).eq( 1 ).html( "密码正确" )
+                .css( { 
+                    "color" : "rgb(0, 128, 0)"
+                 } );
+        }else{
+            $( ".login-con .login-con-cen .left" ).find( "h3" ).eq( 1 ).html( "密码错误" )
+                .css( { 
+                    "color" : "rgb(255, 0, 0)"
+                 } );
+        }
+    } )
+
+    /*验证码提示信息*/
+    $( ".login-con .login-con-cen .left" ).find( ".uyzm" ).bind( "blur" , function(){
+        if( $( ".login-con .login-con-cen .left" ).find( ".uyzm" ).val()  == "" ){
+            $( ".login-con .login-con-cen .left" ).find( "h3" ).eq( 2 ).html( "验证码不能为空" )
+                .css( { 
+                    "color" : "rgb(255, 0, 0)"
+                 } );
+        }else if( $( ".login-con .login-con-cen .left" ).find( ".uyzm" ).val() != $yzm.html() ){
+            console.log( $yzm.html() )
+            console.log(  )
+            $( ".login-con .login-con-cen .left" ).find( "h3" ).eq( 2 ).html( "验证码错误" )
+                .css( { 
+                    "color" : "rgb(255, 0, 0)"
+                 } );
+        }else{
+            $( ".login-con .login-con-cen .left" ).find( "h3" ).eq( 2 ).html( "验证码正确" )
+                .css( { 
+                    "color" : "rgb( 0, 128, 0)"
+                 } );
+        }
+    } )
+
+    //正则验证通过的时候将信息存到cookie里面
+    $( ".yzmbtn" ).click( function(){
+        if( 
+            $( ".login-con .login-con-cen .left" ).find( ".uyzm" ).val() == $ranNum &&
+            $useName.test( $( ".login-con .login-con-cen .left" ).find( ".uname" ).val() ) &&
+            $usePwd.test( $( ".login-con .login-con-cen .left" ).find( ".upwd" ).val() )
+         ){
+            //console.log( "true" );
+
+            var json = {//符合正则表达式的用户名密码
+                "uname" : $( ".login-con .login-con-cen .left" ).find( ".uname" ).val(),
+                "upwd" : $( ".login-con .login-con-cen .left" ).find( ".upwd" ).val()
+            }
+            //console.log( json );
+
+            //存cookie
+            $.cookie( "info" , JSON.stringify( json ) );
+
+            console.log( JSON.parse( $.cookie( "info" ) ))
+            location.href = "login.html";
+         }else{
+            //console.log( "false" );
+         }
+    } )
+    
+    /*添加随机的验证码-------结束*/
+</script>
+</html>
+<!--
+    版心：980
+-->

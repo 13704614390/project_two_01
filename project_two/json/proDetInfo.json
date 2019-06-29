@@ -1,0 +1,457 @@
+{
+    "classify001":{
+		"name" : "今日热卖",
+		"list" : [
+			{
+                "id" : "hotsell001",
+                "yilei" : "所有商品",
+                "erlei" : "男装",
+                "sanlei" : "T恤",
+                "silei" : "短袖T恤",
+                "pid" : "661733",
+                "src" : 
+                    {
+                        "src1" : "../images/showPic/pro/b11.jpg",
+                        "src2" : "../images/showPic/pro/b12.jpg",
+                        "src3" : "../images/showPic/pro/b13.jpg",
+                        "src4" : "../images/showPic/pro/b14.jpg",
+                        "src5" : "../images/showPic/pro/b15.jpg"
+                    },
+                "t1" : "METERSBONWE",
+                "t2" : "【夏季新品】男休闲字母印花短袖T恤",
+                "price1" : "￥ 59.9",
+                "price2" : "￥ 119",
+                "zk" : "2件7折",
+                "xiaoliang" : "9",
+                "pingjia" : "3",
+                "jifen" : "59",
+                "colorNum" : "2",
+                "colorSrc" : [
+                    "../images/showPic/pro/color11.jpg",
+                    "../images/showPic/pro/color12.jpg"
+                ],
+                "sizeNum" : "5",
+                "sizeSrc" : [
+                    "M:170/92A",
+                    "L:175/96A",
+                    "XL:180/100A",
+                    "S:165/88A",
+                    "XXL:185/104B"
+                ],
+                "title" : [
+                    "亮白",
+                    "影黑"
+                ]
+			},
+			{
+                "id" : "hotsell002",
+                "yilei" : "所有商品",
+                "erlei" : "女装",
+                "sanlei" : "T恤",
+                "silei" : "短袖T恤",
+                "pid" : "603946",
+                "src" : 
+                    {
+                        "src1" : "../images/showPic/pro/b21.jpg",
+                        "src2" : "../images/showPic/pro/b22.jpg",
+                        "src3" : "../images/showPic/pro/b23.jpg",
+                        "src4" : "../images/showPic/pro/b24.jpg",
+                        "src5" : "../images/showPic/pro/b25.jpg"
+                    },
+                "t1" : "METERSBONWE",
+                "t2" : "【夏季新品】女情侣前胸小字母短袖T恤",
+                "price1" : "￥ 69.9",
+                "price2" : "￥ 119",
+                "zk" : "2件7折",
+                "xiaoliang" : "1",
+                "pingjia" : "3",
+                "jifen" : "69",
+                "colorNum" : "5",
+                "colorSrc" : [
+                    "../images/showPic/pro/color21.jpg",
+                    "../images/showPic/pro/color22.jpg",
+                    "../images/showPic/pro/color23.jpg",
+                    "../images/showPic/pro/color24.jpg",
+                    "../images/showPic/pro/color25.jpg"
+                ],
+                "sizeNum" : "5",
+                "sizeSrc" : [
+                    "S:155/80A",
+                    "M:160/84A",
+                    "L:165/88A",
+                    "XL:170/92A",
+                    "XXL:175/96A"
+                ],
+                "title" : [
+                    "白色",
+                    "含羞草黄",
+                    "荧光绿",
+                    "郁金香紫",
+                    "橙色"
+                ]
+                
+            },
+            {
+                "id" : "hotsell003",
+                "yilei" : "所有商品",
+                "erlei" : "男装",
+                "sanlei" : "T恤",
+                "silei" : "短袖T恤",
+                "pid" : "661642",
+                "src" : 
+                    {
+                        "src1" : "../images/showPic/pro/b31.jpg",
+                        "src2" : "../images/showPic/pro/b32.jpg",
+                        "src3" : "../images/showPic/pro/b33.jpg",
+                        "src4" : "../images/showPic/pro/b34.jpg",
+                        "src5" : "../images/showPic/pro/b35.jpg"
+                    },
+                "t1" : "METERSBONWE",
+                "t2" : "【夏季新品】男基础多色针织短袖T恤",
+                "price1" : "￥ 59.9",
+                "price2" : "￥ 119",
+                "zk" : "2件7折",
+                "xiaoliang" : "9",
+                "pingjia" : "3",
+                "jifen" : "59",
+                "colorNum" : "8",
+                "colorSrc" : [
+                    "../images/showPic/pro/color31.jpg",
+                    "../images/showPic/pro/color32.jpg",
+                    "../images/showPic/pro/color33.jpg",
+                    "../images/showPic/pro/color34.jpg",
+                    "../images/showPic/pro/color35.jpg",
+                    "../images/showPic/pro/color36.jpg",
+                    "../images/showPic/pro/color37.jpg",
+                    "../images/showPic/pro/color38.jpg"
+                ],
+                "sizeNum" : "6",
+                "sizeSrc" : [
+                    "M:170/92A",
+                    "L:175/96A",
+                    "XL:180/100A",
+                    "S:165/88A",
+                    "XXL:185/104B",
+                    "XXXL:190/108B"
+                ],
+                "title" : [
+                    "亮白",
+                    "猎装杏",
+                    "秋收黄",
+                    "中花灰",
+                    "深花灰",
+                    "羊绒蓝",
+                    "深军蓝",
+                    "峭壁绿"
+                ]
+			},
+            {
+                "id" : "hotsell004",
+                "yilei" : "所有商品",
+                "erlei" : "女装",
+                "sanlei" : "T恤",
+                "silei" : "短袖T恤",
+                "pid" : "603951",
+                "src" : 
+                    {
+                        "src1" : "../images/showPic/pro/b41.jpg",
+                        "src2" : "../images/showPic/pro/b42.jpg",
+                        "src3" : "../images/showPic/pro/b43.jpg",
+                        "src4" : "../images/showPic/pro/b44.jpg",
+                        "src5" : "../images/showPic/pro/b45.jpg"
+                    },
+                "t1" : "METERSBONWE",
+                "t2" : "【夏季新品】女潮流照片阴影印花T恤",
+                "price1" : "￥ 49.9",
+                "price2" : "￥ 139",
+                "zk" : "2件7折",
+                "xiaoliang" : "1",
+                "pingjia" : "3",
+                "jifen" : "49",
+                "colorNum" : "1",
+                "colorSrc" : [
+                    "../images/showPic/pro/color41.jpg"
+                ],
+                "sizeNum" : "5",
+                "sizeSrc" : [
+                    "S:155/80A",
+                    "M:160/84A",
+                    "L:165/88A",
+                    "XL:170/92A",
+                    "XXL:175/96A"
+                ],
+                "title" : [
+                    "黑色"
+                ]
+                
+			},
+            {
+                "id" : "hotsell005",
+                "yilei" : "所有商品",
+                "erlei" : "男装",
+                "sanlei" : "T恤",
+                "silei" : "短袖T恤",
+                "pid" : "661799",
+                "src" : 
+                    {
+                        "src1" : "../images/showPic/pro/b51.jpg",
+                        "src2" : "../images/showPic/pro/b52.jpg",
+                        "src3" : "../images/showPic/pro/b53.jpg",
+                        "src4" : "../images/showPic/pro/b54.jpg",
+                        "src5" : "../images/showPic/pro/b55.jpg"
+                    },
+                "t1" : "METERSBONWE",
+                "t2" : "【夏季新品】男纯棉条纹短袖T恤衫",
+                "price1" : "￥ 69.9",
+                "price2" : "￥ 159",
+                "zk" : "2件7折",
+                "xiaoliang" : "1",
+                "pingjia" : "7",
+                "jifen" : "69",
+                "colorNum" : "3",
+                "colorSrc" : [
+                    "../images/showPic/pro/color51.jpg",
+                    "../images/showPic/pro/color52.jpg",
+                    "../images/showPic/pro/color53.jpg"
+                ],
+                "sizeNum" : "5",
+                "sizeSrc" : [
+                    "M:170/92A",
+                    "L:175/96A",
+                    "XL:180/100A",
+                    "S:165/88A",
+                    "XXL:185/104B"
+                ],
+                "title" : [
+                    "藏青组",
+                    "红色组",
+                    "黑白组"
+                ]
+                
+			},
+            {
+                "id" : "hotsell006",
+                "yilei" : "所有商品",
+                "erlei" : "女装",
+                "sanlei" : "裙装",
+                "silei" : "梭织连衣裙",
+                "pid" : "544085",
+                "src" : 
+                    {
+                        "src1" : "../images/showPic/pro/b61.jpg",
+                        "src2" : "../images/showPic/pro/b62.jpg",
+                        "src3" : "../images/showPic/pro/b63.jpg",
+                        "src4" : "../images/showPic/pro/b64.jpg",
+                        "src5" : "../images/showPic/pro/b65.jpg"
+                    },
+                "t1" : "ME＆CITY",
+                "t2" : "女式抽绳细节连衣裙",
+                "price1" : "￥ 81.9",
+                "price2" : "￥ 599",
+                "zk" : "2件7折",
+                "xiaoliang" : "57",
+                "pingjia" : "52",
+                "jifen" : "81",
+                "colorNum" : "2",
+                "colorSrc" : [
+                    "../images/showPic/pro/color61.jpg",
+                    "../images/showPic/pro/color62.jpg"
+                ],
+                "sizeNum" : "3",
+                "sizeSrc" : [
+                    "155/80A",
+                    "160/84A",
+                    "165/88A"
+                ],
+                "title" : [
+                    "夜黑蓝",
+                    "奶茶色"
+                ]
+                
+			},
+            {
+                "id" : "hotsell007",
+                "yilei" : "所有商品",
+                "erlei" : "男装",
+                "sanlei" : "裤装",
+                "silei" : "牛仔中短裤",
+                "pid" : "255272",
+                "src" : 
+                    {
+                        "src1" : "../images/showPic/pro/b71.jpg",
+                        "src2" : "../images/showPic/pro/b72.jpg",
+                        "src3" : "../images/showPic/pro/b73.jpg",
+                        "src4" : "../images/showPic/pro/b74.jpg",
+                        "src5" : "../images/showPic/pro/b75.jpg"
+                    },
+                "t1" : "METERSBONWE",
+                "t2" : "男COOLMAX面料洗水牛仔中裤",
+                "price1" : "￥ 99.9",
+                "price2" : "￥ 169",
+                "zk" : "1件65 2件6折",
+                "xiaoliang" : "1",
+                "pingjia" : "3",
+                "jifen" : "99",
+                "colorNum" : "3",
+                "colorSrc" : [
+                    "../images/showPic/pro/color71.jpg",
+                    "../images/showPic/pro/color72.jpg",
+                    "../images/showPic/pro/color73.jpg"
+                ],
+                "sizeNum" : "8",
+                "sizeSrc" : [
+                    "S:165/72A",
+                    "M:170/76A",
+                    "L:175/80A",
+                    "XXXL:190/98B",
+                    "M:170/74A",
+                    "M:170/78A",
+                    "L:175/82A",
+                    "L:175/84A"
+                ],
+                "title" : [
+                    "漂白色",
+                    "牛仔浅蓝",
+                    "牛仔中蓝"
+                ]
+                
+			},
+            {
+                "id" : "hotsell008",
+                "yilei" : "所有商品",
+                "erlei" : "女装",
+                "sanlei" : "裙装",
+                "silei" : "波点连衣裙",
+                "pid" : "544694",
+                "src" : 
+                    {
+                        "src1" : "../images/showPic/pro/b81.jpg",
+                        "src2" : "../images/showPic/pro/b82.jpg",
+                        "src3" : "../images/showPic/pro/b83.jpg",
+                        "src4" : "../images/showPic/pro/b84.jpg",
+                        "src5" : "../images/showPic/pro/b85.jpg"
+                    },
+                "t1" : "ME＆CITY",
+                "t2" : "【夏季新品】女棉麻波点连衣裙",
+                "price1" : "￥ 198.9",
+                "price2" : "￥ 599",
+                "zk" : "2件7折",
+                "xiaoliang" : "2",
+                "pingjia" : "5",
+                "jifen" : "198",
+                "colorNum" : "1",
+                "colorSrc" : [
+                    "../images/showPic/pro/color81.jpg"
+                ],
+                "sizeNum" : "2",
+                "sizeSrc" : [
+                    "155/80A",
+                    "160/84A"
+                ],
+                "title" : [
+                    "白色"
+                ]
+                
+			},
+            {
+                "id" : "hotsell009",
+                "yilei" : "所有商品",
+                "erlei" : "男装",
+                "sanlei" : "T恤",
+                "silei" : "短袖T恤",
+                "pid" : "864314",
+                "src" : 
+                    {
+                        "src1" : "../images/showPic/pro/b91.jpg",
+                        "src2" : "../images/showPic/pro/b92.jpg",
+                        "src3" : "../images/showPic/pro/b93.jpg",
+                        "src4" : "../images/showPic/pro/b94.jpg",
+                        "src5" : "../images/showPic/pro/b95.jpg"
+                    },
+                "t1" : "妮芬儿",
+                "t2" : "男士纯色圆领短袖T恤杉打底衫",
+                "price1" : "￥ 24",
+                "price2" : "￥ 199",
+                "zk" : "2件7折",
+                "xiaoliang" : "187",
+                "pingjia" : "220",
+                "jifen" : "24",
+                "colorNum" : "2",
+                "colorSrc" : [
+                    "../images/showPic/pro/color91.jpg",
+                    "../images/showPic/pro/color92.jpg"
+                ],
+                "sizeNum" : "5",
+                "sizeSrc" : [
+                    "180/96A",
+                    "175/92A",
+                    "165/84A",
+                    "170/88A",
+                    "185/104A"
+                ],
+                "title" : [
+                    "黑色",
+                    "白色"
+                ]
+                
+			},
+            {
+                "id" : "hotsell0010",
+                "yilei" : "所有商品",
+                "erlei" : "女装",
+                "sanlei" : "T恤",
+                "silei" : "短袖T恤",
+                "pid" : "A86797",
+                "src" : 
+                    {
+                        "src1" : "../images/showPic/pro/b101.jpg",
+                        "src2" : "../images/showPic/pro/b102.jpg",
+                        "src3" : "../images/showPic/pro/b103.jpg",
+                        "src4" : "../images/showPic/pro/b104.jpg",
+                        "src5" : "../images/showPic/pro/b105.jpg"
+                    },
+                "t1" : "菲铂娅",
+                "t2" : "2019新款夏季短袖韩版纯色打底上衣女百搭基础款短袖T恤11色4码",
+                "price1" : "￥ 39",
+                "price2" : "￥ 299",
+                "zk" : "2件7折",
+                "xiaoliang" : "2",
+                "pingjia" : "1",
+                "jifen" : "39",
+                "colorNum" : "9",
+                "colorSrc" : [
+                    "../images/showPic/pro/color101.jpg",
+                    "../images/showPic/pro/color102.jpg",
+                    "../images/showPic/pro/color103.jpg",
+                    "../images/showPic/pro/color104.jpg",
+                    "../images/showPic/pro/color105.jpg",
+                    "../images/showPic/pro/color106.jpg",
+                    "../images/showPic/pro/color107.jpg",
+                    "../images/showPic/pro/color108.jpg",
+                    "../images/showPic/pro/color109.jpg",
+                    "../images/showPic/pro/color1010.jpg",
+                    "../images/showPic/pro/color1011.jpg"
+                ],
+                "sizeNum" : "4",
+                "sizeSrc" : [
+                    "M",
+                    "L",
+                    "XL",
+                    "2XL"
+                ],
+                "title" : [
+                    "本白",
+                    "黑色",
+                    "紫色",
+                    "咖啡",
+                    "奶茶色",
+                    "藕粉",
+                    "姜黄",
+                    "浅桔",
+                    "桔红"
+                ]
+                
+			}
+		]
+	}
+}

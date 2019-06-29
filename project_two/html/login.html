@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录页面</title>
+    <link rel="stylesheet" href="../iconfont/iconfont.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <style>
+        .height{
+            padding-top:3px;
+            border-top:2px solid #c00;
+            border-bottom:none!important;
+            height:38px;
+            position: relative;
+            top:-3px;
+        }
+    </style>
+</head>
+<body>
+    <!--logo所在行-->
+    <div class="logo">
+        <div class="logo-center">
+            <a href="index.html">
+                <img src="../images/registerPic/mbshop_new_logo2.png" alt="">
+            </a>
+        </div>
+    </div>
+
+    <!--内容板块-->
+    <div class="content">
+        <div class="content-cen">
+            <!--左边的图片修饰部分-->
+            <div class="content-cenL">
+                <a href="index.html">
+                    <img src="../images/loginPic/login_banner.jpg" alt="">
+                </a>
+            </div>
+
+            <!--右边的内容修饰部分-->
+            <div class="content-cenR">
+                <!--类选项卡的标题-->
+                <div class="conTitle">
+                    <p class="height" style="border-right:1px solid #ccc;border-bottom:1px solid #ccc;">账户登录</p>
+                    <p style="border-right:1px solid #ccc;border-bottom:1px solid #ccc;">手机登录</p>
+                    <p style="border-bottom:1px solid #ccc;">卡登陆</p>
+                </div>
+
+                <!--类选项卡的表单部分-->
+                <div class="_form">
+                    <p>用户　名：</p><input type="text"><br>
+                    <span></span><br>
+                    <p>登录密码：</p><input type="text"><br>
+                    <span></span><br>
+                    <p>验证　码：</p><input type="text" style="width:60px;height:26px;"><i style="text-align:center;line-height:32px;position:relative;top:01px;margin: 0 5px;display:inline-block;width:110px;height:32px;background:red;"></i><em style="color:#333;font-size:12px;">换一张</em><br>
+                    <span ></span><br>
+                    <input type="checkbox" style="width:11px;height:11px;border:1px solid #333;margin-left:95px;"><strong>记住用户名</strong>   <input type="checkbox" style="width:11px;height:11px;border:1px solid #333;margin-left:25px;"><strong>自动登录</strong><br>
+                    <div style="margin-left:95px;" class="loginbtn">登录</div><span class="searchPwd">找回密码吗？</span>
+                </div>
+
+                <!--类选项卡的提示信息-->
+                <div class="tishi">
+                    <span>还不是邦购网用户？马上加入~~~</span><a href="index.html"><input type="button" value="免费注册>>" style="margin-left:9px;"></a>
+                </div>
+
+                <!--合作的网站-->
+                <div class="hezuo">
+                    或者使用合作网站登录：
+                </div>
+                <ul class="tubiao">
+                    <li class="first">
+                        <span>QQ</span>
+                    </li>
+                    <li class="second">
+                        <span>支付宝</span>
+                    </li>
+                    <li class="third">
+                        <span>微信</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--友情链接-->
+    <div class="footer">
+        <span>美特斯邦威集团网站:</span>
+        <a href="">美特斯邦威</a> |
+        <a href="">ME&city</a> |
+        <a href="">不认识</a> |
+        <a href="index.html">邦购网</a>
+    </div>
+</body>
+<script src="../js/jquery-1.11.1.js"></script>
+<script src="../js/jquery.cookie.js"></script>
+<script src="../js/common.js"></script>
+<script>
+    /*类选项卡功能的实现-------开始*/
+    var $tList = $( ".content-cenR .conTitle p" );
+
+    //当点击第一个标题的时候
+    $tList.eq( 0 ).bind( "click" , function(){
+        //alert();
+        $( this ).addClass( "height" ).siblings(  ).removeClass( "height" );//点击的时候高亮显示
+
+        $( "._form" ).find( "p" ).eq( 0 ).html( "用户　名：" );
+        $( "._form" ).find( "p" ).eq( 1 ).html( "登录密码：" );
+
+        $( "._form" ).find( "input" ).eq( 0 ).bind( "focus" , function(){//手机号聚焦的时候
+            //alert();
+            $( "._form" ).find( "span" ).eq( 0 ).html( "请输入账户或者邮箱地址" );
+        } )
+
+        $( "._form" ).find( "input" ).eq( 1 ).bind( "focus" , function(){//登录密码聚焦的时候
+            //alert();
+            $( "._form" ).find( "span" ).eq( 1 ).html( "请输入密码" );
+        } )
+
+        $( "._form" ).find( "input" ).eq( 2 ).bind( "focus" , function(){//验证码聚焦的时候
+            //alert();
+            $( "._form" ).find( "span" ).eq( 2 ).html( "请输入验证码" );
+        } )
+    } )
+
+    //当点击第二个标题的时候
+    $tList.eq( 1 ).bind( "click" , function(){
+        //alert();
+        $( this ).addClass( "height" ).siblings(  ).removeClass( "height" );//点击的时候高亮显示
+
+        $( "._form" ).find( "p" ).eq( 0 ).html( "手机　号：" );
+        $( "._form" ).find( "p" ).eq( 1 ).html( "登录密码：" );
+
+        $( "._form" ).find( "input" ).eq( 0 ).bind( "focus" , function(){//手机号聚焦的时候
+            //alert();
+            $( "._form" ).find( "span" ).eq( 0 ).html( "请输入手机号" );
+        } )
+
+        $( "._form" ).find( "input" ).eq( 1 ).bind( "focus" , function(){//登录密码聚焦的时候
+            //alert();
+            $( "._form" ).find( "span" ).eq( 1 ).html( "请输入密码" );
+        } )
+
+        $( "._form" ).find( "input" ).eq( 2 ).bind( "focus" , function(){//验证码聚焦的时候
+            //alert();
+            $( "._form" ).find( "span" ).eq( 2 ).html( "请输入验证码" );
+        } )
+    } )
+
+    /*当点击第三个标题的时候*/
+    $tList.eq( 2 ).bind( "click" , function(){
+        //alert();
+        $( this ).addClass( "height" ).siblings(  ).removeClass( "height" );//点击的时候高亮显示
+
+        $( "._form" ).find( "p" ).eq( 0 ).html( "卡　　号：" );
+        $( "._form" ).find( "p" ).eq( 1 ).html( "卡密　码：" );
+
+        $( "._form" ).find( "input" ).eq( 0 ).bind( "focus" , function(){//手机号聚焦的时候
+            //alert();
+            $( "._form" ).find( "span" ).eq( 0 ).html( "请输入卡号" );
+        } )
+
+        $( "._form" ).find( "input" ).eq( 1 ).bind( "focus" , function(){//登录密码聚焦的时候
+            //alert();
+            $( "._form" ).find( "span" ).eq( 1 ).html( "请输入密码" );
+        } )
+
+        $( "._form" ).find( "input" ).eq( 2 ).bind( "focus" , function(){//验证码聚焦的时候
+            //alert();
+            $( "._form" ).find( "span" ).eq( 2 ).html( "请输入验证码" );
+        } )
+    } )
+
+     /*类选项卡功能的实现-------结束*/
+
+    /*验证码的随机----开始*/
+    $( "._form" ).find( "i" ).css( "background" , randomColor() ).html( getSectionRandomNum( 1000 , 9999 ) );
+    /*验证码的随机----结束*/
+
+    /*点击换一张的时候，验证码进行更换----开始*/
+    $( "._form" ).find( "em" ).click( function(){
+        //alert();
+        $( "._form" ).find( "i" ).css( "background" , randomColor() ).html( getSectionRandomNum( 1000 , 9999 ) );
+    } )
+    /*点击换一张的时候，验证码进行更换----开始*/
+
+    /*实现登录---开始*/
+    $( "._form" ).find( ".loginbtn" ).bind( "click" , function(){
+        //alert();
+        var arr = JSON.parse( $.cookie( "info" ) );//取出cookie中的值
+        console.log( arr );
+
+        if( $( "._form input" ).eq( 2 ).val() == $( "._form" ).find( "i" ).html() ){
+            if( $( "._form input" ).eq( 0 ).val() == arr.uname ){
+                if( $( "._form input" ).eq( 1 ).val() == arr.upwd ){
+                    location.href = "index.html";
+                }else{
+                    alert( "密码不正确" );
+                    $( "._form input" ).eq( 1 ).val( "" );
+                    $( "._form input" ).eq( 2 ).val( "" );
+                    $( "._form" ).find( "i" ).css( "background" , randomColor() ).html( getSectionRandomNum( 1000 , 9999 ) );
+                }
+            }else{
+                alert( "用户名不存在！" )
+                $( "._form input" ).eq( 0 ).val( "" );
+                $( "._form input" ).eq( 1 ).val( "" );
+                $( "._form input" ).eq( 2 ).val( "" );
+                $( "._form" ).find( "i" ).css( "background" , randomColor() ).html( getSectionRandomNum( 1000 , 9999 ) );
+            }
+        }else{
+            alert( "验证码不正确，请重新输入" )
+            $( "._form input" ).eq( 2 ).val( "" );
+            $( "._form" ).find( "i" ).css( "background" , randomColor() ).html( getSectionRandomNum( 1000 , 9999 ) );
+        }
+        console.log( $( "._form input" ).eq( 0 ).val() )
+        console.log( $( "._form input" ).eq( 1 ).val() )
+        console.log( $( "._form input" ).eq( 2 ).val() )
+        console.log( $( "._form" ).find( "i" ).html() )
+    } )
+
+    /*实现登录---结束*/
+</script>
+</html>

@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>商品展示页</title>
+    <link rel="stylesheet" href="../iconfont/iconfont.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/show.css">
+</head>
+<body>
+    <!--登录注册的导航-->
+    <div class="nav-login">
+        <div class="nav-login-center">
+            <p>欢迎来到邦购网，全场实付满99元包邮，本网站多为断码限量商品，支持14天无理由退换货，不支持退差价，感谢理解。</p>
+            <ul>
+                <li class="firstLi">
+                    <a href="login.html" style="padding-right:17px;padding-left:10px;" class="loginH">
+                        登录
+                        <ol id="loginStyle" >
+                            <h2>QQ账户登录</h2>
+                            <h2>支付宝登录</h2>
+                            <h2>微信账户登录</h2>
+                        </ol>
+
+
+                    </a>
+                    <a href="register.html" style="padding:0 10px 0 17px">注册</a>
+                </li>
+                <li class="banggou">
+                    <a href="#" style="padding-left:5px;padding-right:5px;">
+                        我的邦购
+                        <em class="sub" style="margin-left:6px"></em>
+                    </a>
+                    <div >
+                        <h3 style="padding-top:15px;">我的订单</h3>
+                        <h3>我的积分</h3>
+                        <h3>我的点赞</h3>
+                        <h3>收货地址</h3>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" style="padding:0 11px">会员中心</a>
+                </li>
+                <li class="dlBigBox" >
+                    <!-- <img src="../images/indexPic/iphone-vertical.png" style="padding:0 4px 0 11px;"> -->
+                    <em class="iconfont" style="color:red!important">&#xe615;</em>
+                    <a href="#" class="dl" >
+                        
+                        下载APP
+                        
+                        <img style="padding:5px;" src="../images/indexPic/mbshop_pic_erweima.jpg" class="erweimaDL">
+                    </a>
+                    <i class="sub1" style="margin-right:11px;"></i>
+                </li>
+                <li>
+                    <a href="#" style="padding-left:11px;">微博</a>
+                    <a href="#" style="margin-left:9px" class="weChat">
+                        微信
+                        <img src="../images/indexPic/mbshop_pic_erweima.jpg" class="erweima">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <!--搜索框所在的行-->
+    <div class="logo">
+        <div class="logo-cen">
+            <img src="../images/registerPic/mbshop_new_logo2.png" >
+            <div class="sousuo">
+                <input type="text" class="kuang" >
+                <input type="button" value="搜索" class="anniu"><i class="iconfont">&#xe686;</i>
+            </div>
+            <ul>
+                <li>
+                    <a href="#">T恤</a>|
+                </li>
+                <li>
+                    <a href="#" style="color:#d30a06;">衬衫</a>|
+                </li>
+                <li>
+                    <a href="#" style="color:#d30a06;">连衣裙</a>|
+                </li>
+                <li>
+                    <a href="#">外套</a>|
+                </li>
+                <li>
+                    <a href="#" style="color:#d30a06;">牛仔裤</a>
+                </li>
+            </ul>
+            <p>
+                <em class="iconfont" style="font-size:25px;position: relative;top:3px;margin-right:15px;">&#xe757;</em>
+                <i>购物袋</i>
+                <span>0</span>
+                <i>件</i>
+            </p>
+        </div>
+    </div>
+
+    <!--真正的导航-->
+    <div class="nav" >
+        <div class="nav-cen">
+            <ul class="nav-ul">
+                <li>
+                    <a href="#">首页</a>
+                </li>
+
+                <li>
+                    <a href="#">男装</a>
+                    <div class="nanzhuang"
+                        style="width:330px;min-height:100px;background:#fff;position:absolute;left:59px;top:44px;
+                        padding-top:30px;padding-bottom:30px;display: none;z-index: 10;"
+                    >
+                        <dl style="float:left;border-right:1px solid #f0f0f0;padding: 0 24px 36px;">
+                            <dt style="font-size:20px;color:#d22223;padding-left:10px;margin-bottom:15px;">上装</dt>
+                            <dd>衬衫</dd>
+                            <dd>卫衣</dd>
+                            <dd>毛衣</dd>
+                            <dd>夹克</dd>
+                            <dd>西装</dd>
+                        </dl>
+                        <dl style="float:left;border-right:1px solid #f0f0f0;padding: 0 24px 36px;">
+                            <dt style="font-size:20px;color:#d22223;padding-left:10px;margin-bottom:15px;">下装</dt>
+                            <dd>牛仔长裤</dd>
+                            <dd>休闲长裤</dd>
+                            <dd>西裤</dd>
+                            <dd>针织长裤</dd>
+                        </dl>
+                        <dl style="float:left;padding: 0 24px 36px;">
+                            <dt style="font-size:20px;color:#d22223;padding-left:10px;margin-bottom:15px;">内衣</dt>
+                            <dd>内衣下装</dd>
+                            <dd>内衣上装</dd>
+                            <dd>袜子</dd>
+                        </dl>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="#">女装</a>
+                    <div class="nanzhuang"
+                        style="width:330px;min-height:100px;background:#fff;position:absolute;left:116px;top:44px;
+                        padding-top:30px;padding-bottom:30px;display: none;z-index: 10;"
+                    >
+                        <dl style="float:left;border-right:1px solid #f0f0f0;padding: 0 24px 36px;">
+                            <dt style="font-size:20px;color:#d22223;padding-left:10px;margin-bottom:15px;">上装</dt>
+                            <dd>衬衫</dd>
+                            <dd>卫衣</dd>
+                            <dd>毛衣</dd>
+                            <dd>夹克</dd>
+                            <dd>西装</dd>
+                        </dl>
+                        <dl style="float:left;border-right:1px solid #f0f0f0;padding: 0 24px 36px;">
+                            <dt style="font-size:20px;color:#d22223;padding-left:10px;margin-bottom:15px;">下装</dt>
+                            <dd>牛仔长裤</dd>
+                            <dd>休闲长裤</dd>
+                            <dd>西裤</dd>
+                            <dd>针织长裤</dd>
+                        </dl>
+                        <dl style="float:left;padding: 0 24px 36px;">
+                            <dt style="font-size:20px;color:#d22223;padding-left:10px;margin-bottom:15px;">内衣</dt>
+                            <dd>内衣下装</dd>
+                            <dd>内衣上装</dd>
+                            <dd>袜子</dd>
+                        </dl>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="#">儿童</a>
+                    <div class="nanzhuang"
+                        style="width:330px;min-height:100px;background:#fff;position:absolute;left:179px;top:44px;
+                        padding-top:30px;padding-bottom:30px;display: none;z-index: 10;"
+                    >
+                        <dl style="float:left;border-right:1px solid #f0f0f0;padding: 0 24px 36px;">
+                            <dt style="font-size:20px;color:#d22223;padding-left:10px;margin-bottom:15px;">上装</dt>
+                            <dd>衬衫</dd>
+                            <dd>卫衣</dd>
+                            <dd>毛衣</dd>
+                            <dd>夹克</dd>
+                            <dd>西装</dd>
+                        </dl>
+                        <dl style="float:left;border-right:1px solid #f0f0f0;padding: 0 24px 36px;">
+                            <dt style="font-size:20px;color:#d22223;padding-left:10px;margin-bottom:15px;">下装</dt>
+                            <dd>牛仔长裤</dd>
+                            <dd>休闲长裤</dd>
+                            <dd>西裤</dd>
+                            <dd>针织长裤</dd>
+                        </dl>
+                        <dl style="float:left;padding: 0 24px 36px;">
+                            <dt style="font-size:20px;color:#d22223;padding-left:10px;margin-bottom:15px;">内衣</dt>
+                            <dd>内衣下装</dd>
+                            <dd>内衣上装</dd>
+                            <dd>袜子</dd>
+                        </dl>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="#">鞋履</a>
+                    <div class="nanzhuang"
+                        style="width:330px;min-height:100px;background:#fff;position:absolute;left:238px;top:44px;
+                        padding-top:30px;padding-bottom:30px;display: none;z-index: 10;"
+                    >
+                        <dl style="float:left;border-right:1px solid #f0f0f0;padding: 0 24px 36px;">
+                            <dt style="font-size:20px;color:#d22223;padding-left:10px;margin-bottom:15px;">上装</dt>
+                            <dd>衬衫</dd>
+                            <dd>卫衣</dd>
+                            <dd>毛衣</dd>
+                            <dd>夹克</dd>
+                            <dd>西装</dd>
+                        </dl>
+                        <dl style="float:left;border-right:1px solid #f0f0f0;padding: 0 24px 36px;">
+                            <dt style="font-size:20px;color:#d22223;padding-left:10px;margin-bottom:15px;">下装</dt>
+                            <dd>牛仔长裤</dd>
+                            <dd>休闲长裤</dd>
+                            <dd>西裤</dd>
+                            <dd>针织长裤</dd>
+                        </dl>
+                        <dl style="float:left;padding: 0 24px 36px;">
+                            <dt style="font-size:20px;color:#d22223;padding-left:10px;margin-bottom:15px;">内衣</dt>
+                            <dd>内衣下装</dd>
+                            <dd>内衣上装</dd>
+                            <dd>袜子</dd>
+                        </dl>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="#">箱包</a>
+                    <div class="nanzhuang"
+                        style="width:330px;min-height:100px;background:#fff;position:absolute;left:297px;top:44px;
+                        padding-top:30px;padding-bottom:30px;display: none;z-index: 10;"
+                    >
+                        <dl style="float:left;border-right:1px solid #f0f0f0;padding: 0 24px 36px;">
+                            <dt style="font-size:20px;color:#d22223;padding-left:10px;margin-bottom:15px;">上装</dt>
+                            <dd>衬衫</dd>
+                            <dd>卫衣</dd>
+                            <dd>毛衣</dd>
+                            <dd>夹克</dd>
+                            <dd>西装</dd>
+                        </dl>
+                        <dl style="float:left;border-right:1px solid #f0f0f0;padding: 0 24px 36px;">
+                            <dt style="font-size:20px;color:#d22223;padding-left:10px;margin-bottom:15px;">下装</dt>
+                            <dd>牛仔长裤</dd>
+                            <dd>休闲长裤</dd>
+                            <dd>西裤</dd>
+                            <dd>针织长裤</dd>
+                        </dl>
+                        <dl style="float:left;padding: 0 24px 36px;">
+                            <dt style="font-size:20px;color:#d22223;padding-left:10px;margin-bottom:15px;">内衣</dt>
+                            <dd>内衣下装</dd>
+                            <dd>内衣上装</dd>
+                            <dd>袜子</dd>
+                        </dl>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="#">生活配饰</a>
+                    <div class="nanzhuang"
+                        style="width:330px;min-height:100px;background:#fff;position:absolute;left:356px;top:44px;
+                        padding-top:30px;padding-bottom:30px;display: none;z-index: 10;"
+                    >
+                        <dl style="float:left;border-right:1px solid #f0f0f0;padding: 0 24px 36px;">
+                            <dt style="font-size:20px;color:#d22223;padding-left:10px;margin-bottom:15px;">上装</dt>
+                            <dd>衬衫</dd>
+                            <dd>卫衣</dd>
+                            <dd>毛衣</dd>
+                            <dd>夹克</dd>
+                            <dd>西装</dd>
+                        </dl>
+                        <dl style="float:left;border-right:1px solid #f0f0f0;padding: 0 24px 36px;">
+                            <dt style="font-size:20px;color:#d22223;padding-left:10px;margin-bottom:15px;">下装</dt>
+                            <dd>牛仔长裤</dd>
+                            <dd>休闲长裤</dd>
+                            <dd>西裤</dd>
+                            <dd>针织长裤</dd>
+                        </dl>
+                        <dl style="float:left;padding: 0 24px 36px;">
+                            <dt style="font-size:20px;color:#d22223;padding-left:10px;margin-bottom:15px;">内衣</dt>
+                            <dd>内衣下装</dd>
+                            <dd>内衣上装</dd>
+                            <dd>袜子</dd>
+                        </dl>
+                    </div>
+                </li>
+
+            </ul>
+            <a href="#">
+                <img src="../images/indexPic/1.png" alt="" style="position:relative;top:-7px;left:-590px;">    
+            </a>
+            <a href="#">
+                <img src="../images/indexPic/2.png" alt="" style="position:relative;top:-7px;left:-594px;">
+            </a>
+            <a href="#">
+                <img src="../images/indexPic/3.gif" alt="" style="position:relative;top:-7px;left:-598px;">
+            </a>
+            <img src="../images/indexPic/pcxgxdyg.gif" alt="" class="shopcar">
+        </div>
+    </div>
+
+    <!--商品显示区-->
+    <div class="show">
+        <div class="show-cen">
+            <div class="show-cen-left">
+                <h2 style="height:35px;font-size:12px;color:#000;line-height:35px;">
+                    <em>所有商品</em>><i>男装</i>><strong>T恤</strong>><b>短袖T恤</b>
+                </h2>
+                <div id="box">
+                     <div id="small" class="small">
+                        <img src="../images/showPic/pro/b11.jpg" alt="" style="z-index: 1;">
+                        <img src="../images/showPic/pro/b12.jpg" alt="">
+                        <img src="../images/showPic/pro/b13.jpg" alt="">
+                        <img src="../images/showPic/pro/b14.jpg" alt="">
+                        <img src="../images/showPic/pro/b15.jpg" alt="">
+                        <div id="mask" style="display: none;"></div>
+                    </div>
+                     <div id="big">
+                        <img src="../images/showPic/pro/b11.jpg" alt="" class="bigImage" style="z-index: 1;">
+                        <img src="../images/showPic/pro/b12.jpg" alt="" class="bigImage">
+                        <img src="../images/showPic/pro/b13.jpg" alt="" class="bigImage">
+                        <img src="../images/showPic/pro/b14.jpg" alt="" class="bigImage">
+                        <img src="../images/showPic/pro/b15.jpg" alt="" class="bigImage">
+                    </div>
+
+                   <ul id="bottom">
+                        <li>
+                            <img src="../images/showPic/pro/b11.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="../images/showPic/pro/b12.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="../images/showPic/pro/b13.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="../images/showPic/pro/b14.jpg" alt="">
+                        </li>
+                        <li style="margin-right:0;">
+                            <img src="../images/showPic/pro/b15.jpg" alt="">
+                        </li>
+                    </ul>  
+                </div>
+                <div class="goodsInfo">
+                    <span>
+                        <i>商品编号：</i><em>661733</em>
+                    </span>
+                    <b>分享</b>
+                    <strong>点赞</strong>
+                    <div class="fxk">
+                        <h2>分享到</h2>
+                        <ul>
+                            <li>QQ空间</li>
+                            <li style="background:url( '../images/showPic/veo_mbshop_spirit_pic.png' ) 7px -1528px no-repeat;">新浪微博</li>
+                            <li>腾讯微博</li>
+                            <li style="background:url( '../images/showPic/veo_mbshop_spirit_pic.png' ) 7px -1480px no-repeat;">人人网</li>
+                            <li style="background:url( '../images/showPic/veo_mbshop_spirit_pic.png' ) 7px -1436px no-repeat;">微信</li>
+                            <li>更多</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="show-cen-right">
+                <!-- 商品标题区 -->
+                <h2>
+                    <em>METERSBONWE</em><i>【夏季新品】男休闲字母印花短袖T恤</i>
+                </h2>
+
+                <!--商品价格区-->
+                <div class="zk">
+                    <p>
+                        <em>售价：</em><i>￥ 59.9</i>
+                        <strong>吊牌价：</strong><b>￥ 119</b>
+                        <u>5折</u>
+                    </p>
+                    <h3>
+                        <span>本品不参加会员折扣</span><i>会员规则</i>
+                    </h3>
+                    <h4>
+                        <span>促销</span><i></i><em>2件7折</em>
+                    </h4>
+                </div>
+
+                <!--商品销量区-->
+                <ul>
+                    <li>
+                        <em>销量</em><i>9</i>
+                    </li>
+                    <li style="padding-left:36px;">
+                        <em>累计评价</em><i>3</i>
+                    </li>
+                    <li style="border-right:none;padding-left:29px;">
+                        <em>送邦购积分</em><i>59</i>
+                    </li>
+                </ul>
+
+                <!--选择颜色-->
+                <dl class="chooseColor">
+                    <dt>
+                        <em>颜色：</em><i>请选择颜色</i>
+                    </dt>
+                    <dd>
+                        <img src="../images/showPic/pro/color11.jpg" alt="">
+                    </dd>
+                    <dd>
+                        <img src="../images/showPic/pro/color12.jpg" alt="">
+                    </dd>
+                </dl>
+
+                <!--选择尺码-->
+                <dl class="chooseSize">
+                    <dt>
+                        <em>尺码：</em><i>请选择尺码</i>
+                    </dt>
+                    <dd>
+                        <u>M:170/92A</u>
+                        <u>L:175/96A</u>
+                        <u>XL:180/100A</u>
+                        <u>S:165/88A</u>
+                        <u>XXL:185/104B</u>
+                    </dd>
+                </dl>
+
+                <!--选择数量-->
+                <h5>
+                    <em>购买数量：</em><i>-</i><u>1</u><s>+</s>
+                </h5>
+
+                <!--加入购物车的按钮-->
+                <button class="jrgwc">加入购物袋</button>
+
+                <!--浏览更多-->
+                <h6>
+                    <em>浏览更多：</em><i>短袖T恤</i>
+                </h6>
+
+                <!--温馨提示-->
+                <dl class="hint">
+                    <dt>温馨提示：</dt>
+                    <dd>
+                        <b style="margin-right:145px;">
+                            <em></em><i>此商品不可以使用邦购红包</i>
+                        </b>
+                        <b style="margin-right:100px;">
+                            <em></em><i>此商品不可以使用积分</i>
+                        </b><br>
+                        <b>
+                            <em></em><i>14天退换</i>
+                        </b>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+
+
+    <!--664-->
+</body>
+<script src="../js/jquery-1.11.1.js"></script>
+<script>
+    window.onload = function(){
+        /*导航下拉框的鼠标移入移出-----开始*/
+        $nav_list = $( ".nav .nav-cen .nav-ul > li" );//找到的是下拉框中的li
+        $nav_list.hover( function(){
+            $( this ).find( ".nanzhuang" ).css( "display" , "block" );
+        } , function(){
+            $( this ).find( ".nanzhuang" ).css( "display" , "none" );
+        } )
+        /*导航下拉框的鼠标移入移出-----结束*/
+
+        /*登录注册的偏移量设置----开始*/
+        $( ".nav-login .nav-login-center ul li" ).eq( 0 ).find( "ol" ).css( "background" , "#fcfbfb" );
+        $( ".nav-login .nav-login-center ul li" ).eq( 1 ).find( "div" ).css( "left" , "105px" )
+                                                 .css( "background" , "#fcfbfb" );
+        $( ".nav-login .nav-login-center ul li" ).eq( 3 ).find( "img" ).css( "left" , "253px" );
+        $( ".nav-login .nav-login-center ul li" ).eq( 4 ).find( "img" ).css( "left" , "306px" );
+        /*登录注册的偏移量设置----结束*/
+
+
+        /*热卖网页数据的刷新---开始*/
+        $.ajax( {    //不利用返回值的方法
+            type : "get",    //通过get的方式获取数据
+            url : "../json/proDetInfo.json?_id=" + new Date().getTime(),    //要获取数据的路径
+            async : true,    //是否异步，默认是true
+            success : function( res ){    //成功之后要执行的函数
+                //console.log( res ); //对取到的数据进行测试
+                //console.log( location.href );     //获取当前的网址
+
+                var $address = location.href;
+                var $_id = $address.split( "?" )[1];
+                //console.log( $_id );    //_id=hotsell001
+                var $_pid = $_id.split( "=" )[1];
+                
+                //console.log( $_pid );     //hotsell001
+
+                var arr = res.classify001.list;
+                //console.log( arr );
+                var $str1 = "";
+                var $str2 = "";
+                for( var i = 0 ; i < arr.length ; i++ ){
+                    if( arr[ i ].id == $_pid ){
+                        //console.log( "true" );
+                        //console.log( arr[ i ].pid )
+                        $str1 +=`
+                        <h2 style="height:35px;font-size:12px;color:#000;line-height:35px;">
+                            <em>${arr[ i ].yilei}</em>><i>${arr[ i ].erlei}</i>><strong>${arr[ i ].sanlei}</strong>><b>${arr[ i ].silei}</b>
+                        </h2>
+                        <div id="box">
+                            <div id="small" class="small">
+                                <img src="${arr[ i ].src.src1}" alt="" style="z-index: 1;">
+                                <img src="${arr[ i ].src.src2}" alt="">
+                                <img src="${arr[ i ].src.src3}" alt="">
+                                <img src="${arr[ i ].src.src4}" alt="">
+                                <img src="${arr[ i ].src.src5}" alt="">
+                                <div id="mask" style="display: none;"></div>
+                            </div>
+                            <div id="big">
+                                <img src="${arr[ i ].src.src1}" alt="" class="bigImage" style="z-index: 1;">
+                                <img src="${arr[ i ].src.src2}" alt="" class="bigImage">
+                                <img src="${arr[ i ].src.src3}" alt="" class="bigImage">
+                                <img src="${arr[ i ].src.src4}" alt="" class="bigImage">
+                                <img src="${arr[ i ].src.src5}" alt="" class="bigImage">
+                            </div>
+
+                        <ul id="bottom">
+                                <li>
+                                    <img src="${arr[ i ].src.src1}" alt="">
+                                </li>
+                                <li>
+                                    <img src="${arr[ i ].src.src2}" alt="">
+                                </li>
+                                <li>
+                                    <img src="${arr[ i ].src.src3}" alt="">
+                                </li>
+                                <li>
+                                    <img src="${arr[ i ].src.src4}" alt="">
+                                </li>
+                                <li style="margin-right:0;">
+                                    <img src="${arr[ i ].src.src5}" alt="">
+                                </li>
+                            </ul>  
+                        </div>
+                        <div class="goodsInfo">
+                            <span>
+                                <i>商品编号：</i><em>${arr[ i ].pid}</em>
+                            </span>
+                            <b>分享</b>
+                            <strong>点赞</strong>
+                            <div class="fxk">
+                                <h2>分享到</h2>
+                                <ul>
+                                    <li>QQ空间</li>
+                                    <li style="background:url( '../images/showPic/veo_mbshop_spirit_pic.png' ) 7px -1528px no-repeat;">新浪微博</li>
+                                    <li>腾讯微博</li>
+                                    <li style="background:url( '../images/showPic/veo_mbshop_spirit_pic.png' ) 7px -1480px no-repeat;">人人网</li>
+                                    <li style="background:url( '../images/showPic/veo_mbshop_spirit_pic.png' ) 7px -1436px no-repeat;">微信</li>
+                                    <li>更多</li>
+                                </ul>
+                            </div>
+                        </div>
+                        `;
+    
+                        console.log( arr[ i ].t1 );
+                        /*右侧的渲染*/
+                        $str2 += `
+                        <h2>
+                            <em>${arr[ i ].t1}</em><i>${arr[ i ].t2}</i>
+                        </h2>
+
+                        <!--商品价格区-->
+                        <div class="zk">
+                            <p>
+                                <em>售价：</em><i>${arr[ i ].price1}</i>
+                                <strong>吊牌价：</strong><b>${arr[ i ].price2}</b>
+                                <u>5折</u>
+                            </p>
+                            <h3>
+                                <span>本品不参加会员折扣</span><i>会员规则</i>
+                            </h3>
+                            <h4>
+                                <span>促销</span><i></i><em>${arr[ i ].zk}</em>
+                            </h4>
+                        </div>
+
+                        <!--商品销量区-->
+                        <ul>
+                            <li>
+                                <em>销量</em><i>${arr[ i ].xiaoliang}</i>
+                            </li>
+                            <li style="padding-left:36px;">
+                                <em>累计评价</em><i>${arr[ i ].pingjia}</i>
+                            </li>
+                            <li style="border-right:none;padding-left:29px;">
+                                <em>送邦购积分</em><i>${arr[ i ].jifen}</i>
+                            </li>
+                        </ul>
+
+                        <!--选择颜色-->
+                        <dl class="chooseColor">
+                            <dt>
+                                <em>颜色：</em><i>请选择颜色</i>
+                            </dt>`;
+                        var $k = arr[ i ];
+                        for( var j = 0 ; j < $k.colorNum ; j++ ){
+                            $str2 += `
+                            <dd>
+                                <img src="${$k.colorSrc[ j ]}" alt="${$k.title[ j ]}">
+                            </dd>
+                            `;
+                        }
+                        $str2 += `    
+                        </dl>
+
+                        <!--选择尺码-->
+                        <dl class="chooseSize">
+                            <dt>
+                                <em>尺码：</em><i>请选择尺码</i>
+                            </dt>
+                            <dd>`;
+                        for( var k = 0 ; k < $k.sizeNum ; k++ ){
+                            $str2 +=`
+                            <u>${$k.sizeSrc[ k ]}</u>
+                            `;
+                        }
+                        $str2 += `
+                            </dd>
+                        </dl>
+
+                        <!--选择数量-->
+                        <h5>
+                            <em>购买数量：</em><i con="-1">-</i><u>1</u><s con="1">+</s>
+                        </h5>
+
+                        <!--加入购物车的按钮-->
+                        <button class="jrgwc" pnum="1">加入购物袋</button>
+
+                        <!--浏览更多-->
+                        <h6>
+                            <em>浏览更多：</em><i>短袖T恤</i>
+                        </h6>
+
+                        <!--温馨提示-->
+                        <dl class="hint">
+                            <dt>温馨提示：</dt>
+                            <dd>
+                                <b style="margin-right:145px;">
+                                    <em></em><i>此商品不可以使用邦购红包</i>
+                                </b>
+                                <b style="margin-right:100px;">
+                                    <em></em><i>此商品不可以使用积分</i>
+                                </b><br>
+                                <b>
+                                    <em></em><i>14天退换</i>
+                                </b>
+                            </dd>
+                        </dl>
+                        `;
+                    }
+                }
+                $( ".show .show-cen .show-cen-left" ).html( $str1 );
+                $( ".show .show-cen .show-cen-right" ).html( $str2 );
+
+                
+                
+                /*鼠标滑过分享显示对应的内容-----开始*/
+                $( ".show .show-cen .show-cen-left .goodsInfo" ).on( "mouseenter" , $(".show .show-cen .show-cen-left .goodsInfo b" ) , function(){
+                    $( ".show .show-cen .show-cen-left .goodsInfo .fxk" ).css( "display" , "block" );
+                // alert();
+                } ).on( "mouseleave" , $(".show .show-cen .show-cen-left .goodsInfo b" ) , function(){
+                    $( ".show .show-cen .show-cen-left .goodsInfo .fxk" ).css( "display" , "none" );
+                // alert();
+                } )
+                /*鼠标滑过分享显示对应的内容-----结束*/
+
+                /*鼠标移入标题出现下划线---开始*/
+                $( ".show .show-cen .show-cen-right" ).find( "h2 em" ).hover( function(){
+                    $( this ).css( "text-decoration" , "underline" )
+                } , function(){
+                    $( this ).css( "text-decoration" , "none" )
+                } )
+                /*鼠标移入标题出现下划线---结束*/
+
+                /*滑过小图变换边框的颜色---开始*/
+                $( ".show .show-cen .show-cen-left #box #bottom" ).find( "li" ).hover( function(){
+                    $( this ).css( "border-color" , "red" );
+                } , function(){
+                    $( this ).css( "border-color" , "#c7c7c7" );
+
+                } )
+                /*滑过小图变换边框的颜色---结束*/
+
+                /*点击小图的时候，上面的大图对应着显示----开始*/
+                $( ".show .show-cen .show-cen-left #box #bottom" ).find( "li" ).click( function( ){
+                    var index = $( this ).index();
+                    //console.log( index );
+                    $( ".show .show-cen .show-cen-left #box #small" ).find( "img" ).eq( index ).css( { "display" : "block" , "border-color" : "red" } )
+                        .siblings().css( { "display" : "none" } );
+                    $( ".show .show-cen .show-cen-left #box #big" ).find( "img" ).eq( index ).css( { "display" : "block" , "border-color" : "red" } )
+                        .siblings().css( { "display" : "none" } );
+                } )
+                /*点击小图的时候，上面的大图对应着显示----结束*/
+
+                /*鼠标移入中途的时候，放大镜和大图进行显示-----开始*/
+                $( ".show .show-cen .show-cen-left #box #small" ).hover( function(){
+                    $( this ).find( "#mask" ).css( "display" , "block" );
+                    $( ".show .show-cen .show-cen-left #box #big" ).css( "display" , "block" );
+                    $( ".show .show-cen .show-cen-left #box #big" ).find( "img" ).css( "width" , "960" )
+                } , function(){
+                    $( this ).find( "#mask" ).css( "display" , "none" );
+                    $( ".show .show-cen .show-cen-left #box #big" ).css( "display" , "none" );
+                } )
+                /*鼠标移入中途的时候，放大镜和大图进行显示-----结束*/
+
+                /*实现放大镜---开始*/
+                $( ".show .show-cen .show-cen-left #box #small" ).on( "mousemove" , function( e ){
+                    var e = e || event;
+
+                    /*获得内部的偏移量*/
+                    var disx = e.pageX - $( ".show .show-cen .show-cen-left #box" ).offset().left - $( ".show .show-cen .show-cen-left #box #small" ).find( "#mask" ).width() / 2;
+                    var disy = e.pageY - $( ".show .show-cen .show-cen-left #box" ).offset().top - $( ".show .show-cen .show-cen-left #box #small" ).find( "#mask" ).height() / 2;
+                    //console.log( disx , disy );
+
+                    /*边界处理---开始*/
+                    var maxL = $( ".show .show-cen .show-cen-left #box #small" ).width() - $( ".show .show-cen .show-cen-left #box #small" ).find( "#mask" ).width();
+                    var maxT = $( ".show .show-cen .show-cen-left #box #small" ).height() - $( ".show .show-cen .show-cen-left #box #small" ).find( "#mask" ).height();
+
+                    disx = Math.min( Math.max( 0 , disx ) , maxL );
+                    disy = Math.min( Math.max( 0 , disy ) , maxT );
+                    /*边界处理---结束*/
+
+                    /*遮罩动起来----开始*/
+                    $( ".show .show-cen .show-cen-left #box #small" ).find( "#mask" ).css( { 
+                        "left" : disx,
+                        "top" : disy
+                     } )
+                    /*遮罩动起来----结束*/
+                    
+                    /*大图动起来----开始*/
+                    var bigx = disx * $( ".show .show-cen .show-cen-left #box #big" ).width() / $( ".show .show-cen .show-cen-left #box #small" ).find( "#mask" ).width();
+                    var bigy = disy * $( ".show .show-cen .show-cen-left #box #big" ).height() / $( ".show .show-cen .show-cen-left #box #small" ).find( "#mask" ).height();
+                    
+                    $( ".show .show-cen .show-cen-left #box #big" ).find( "img" ).css( { 
+                        "left" : -bigx,
+                        "top" : -bigy
+                     } )
+                    /*大图动起来----结束*/
+
+                } )
+                /*实现放大镜---结束*/
+                $( ".show .show-cen .show-cen-right button" ).css( "background" , "#f8584f" )
+                /*鼠标滑过标题改变字体颜色---开始*/
+                $( ".show .show-cen .show-cen-left h2" ).find( "em" ).hover( function(){
+                    $( this ).css( { 
+                        "color" : "#999" 
+                    } );
+                } , function(){
+                    $( this ).css( "color" , "#000" );
+                } )
+
+                $( ".show .show-cen .show-cen-left h2" ).find( "i" ).hover( function(){
+                    $( this ).css( { 
+                        "color" : "#999" 
+                    } );
+                } , function(){
+                    $( this ).css( "color" , "#000" );
+                } )
+
+                $( ".show .show-cen .show-cen-left h2" ).find( "b" ).hover( function(){
+                    $( this ).css( { 
+                        "color" : "#999" 
+                    } );
+                } , function(){
+                    $( this ).css( "color" , "#000" );
+                } )
+
+                $( ".show .show-cen .show-cen-left h2" ).find( "strong" ).hover( function(){
+                    $( this ).css( { 
+                        "color" : "#999" 
+                    } );
+                } , function(){
+                    $( this ).css( "color" , "#000" );
+                } )
+                /*鼠标滑过标题改变字体颜色---结束*/
+
+                /*点击减价号数量改变---开始*/ 
+                var goodsNum = Number( $( ".show .show-cen .show-cen-right h5" ).find( "u" ).html() );
+                //console.log( goodsNum );
+                $( ".show .show-cen .show-cen-right h5" ).find( "s" ).on( "click" , function(){
+                    //alert();
+                    goodsNum++;
+                    $( ".show .show-cen .show-cen-right h5" ).find( "u" ).html( goodsNum );
+                    $pnum = goodsNum;
+                    $( ".show .show-cen .show-cen-right button" ).attr( "pnum" , $pnum );
+
+                } )
+
+                $( ".show .show-cen .show-cen-right h5" ).find( "i" ).on( "click" , function(){
+                    //alert();
+                    if( goodsNum >= 2 ){
+                        goodsNum--;
+                        $( ".show .show-cen .show-cen-right h5" ).find( "u" ).html( goodsNum );
+                        $pnum = goodsNum;
+                        $( ".show .show-cen .show-cen-right button" ).attr( "pnum" , $pnum );
+                    }
+                    
+                } )
+                /*点击减价号数量改变---结束*/
+                
+                /*点击尺寸的时候在上面显示---开始*/
+                $( ".show .show-cen .show-cen-right .chooseSize dd" ).on( "click" , "u" , function(){
+                    //alert();
+                    $ccnr = $( this ).html();
+                    //console.log(  $( ".show .show-cen .show-cen-right .chooseSize dt i" ).html() )
+                    //console.log( $ccnr );
+                    $psize = $ccnr;
+                    $( ".show .show-cen .show-cen-right button" ).attr( "psize" , $psize );
+                    $( ".show .show-cen .show-cen-right .chooseSize dt" ).find( "i" ).html( $ccnr );
+                } ).on( "mouseenter" , "u" , function(){//滑入改变边框颜色
+                    $( this ).css( "border-color" , "red" );
+                } ).on( "mouseleave" , "u" , function(){//滑出回复原来的颜色
+                    $( this ).css( "border-color" , "#dcdcdc" );
+                } )
+                /*点击尺寸的时候在上面显示---结束*/
+
+                /*滑过颜色的时候边框颜色改变---开始*/
+                $( ".show .show-cen .show-cen-right .chooseColor" ).on( "mouseenter" , "dd" , function(){//滑入改变边框颜色
+                    $( this ).css( "border-color" , "red" );
+                } ).on( "mouseleave" , "dd" , function(){//滑出回复原来的颜色
+                    $( this ).css( "border-color" , "#dcdcdc" );
+                } ).on( "click" , "dd img" , function(){
+                    var goodsC = $( this ).attr( "alt" );
+                    //console.log( $( ".show .show-cen .show-cen-right .chooseColor dt i" ).html() )
+                    //console.log( goodsC );
+                    $( ".show .show-cen .show-cen-right .chooseColor dt i" ).html( goodsC );
+                    $pcolor = goodsC;
+                    $( ".show .show-cen .show-cen-right .jrgwc" ).attr( "pcolor" , $pcolor );
+                    /*获取购物车中图片的路径-------开始*/
+                    for( var i = 0 ; i < arr.length ; i++ ){
+                        if( arr[ i ].id == $_pid ){
+                            for( var j = 0 ; j < arr[ i ].title.length ; j++ ){
+                                if( arr[ i ].title[ j ] == $pcolor ){
+                                    $ppsrc = arr[ i ].colorSrc[ j ];
+                                    $( ".show .show-cen .show-cen-right button" ).attr( "ppsrc" , $ppsrc );
+                                    break;
+                                }
+                            }
+                        }
+                    }    
+                    /*获取购物车中图片的路径-------结束*/
+                   
+                } )
+                /*滑过颜色的时候边框颜色改变---结束*/
+
+                //$( ".show .show-cen .show-cen-right button" ).css( "background" , "green" );
+                
+                /*将数据添加到数据库里面----开始*/
+                //console.log( arr )
+                for( var x = 0 ; x < arr.length ; x++ ){
+                    if( arr[ x ].id == $_pid ){
+                        /*获得所有的商品信息---开始*/
+                        $pname = arr[ x ].t2;   //商品名称
+                        $pid = arr[ x ].pid;    //商品编号
+                        //$pcolor = $( ".show .show-cen .show-cen-right .chooseColor dt i" ).html(); //颜色
+                        //$psize = $( ".show .show-cen .show-cen-right .chooseSize dt i" ).html();  //尺寸
+                        $pyprice = arr[ x ].price2;//原价
+                        $pxprice = arr[ x ].price1;//现价
+                        //$pnum = goodsNum;
+                        /*获得所有的商品信息---结束*/
+                        
+                    }
+                }
+                var flag = true;
+                var parr = [];
+                $( ".show .show-cen .show-cen-right button" ).click( function(){
+                    if( $( ".show .show-cen .show-cen-right .chooseColor dt i" ).html() != "请选择颜色" &&
+                        $( ".show .show-cen .show-cen-right .chooseSize dt i" ).html()  != "请选择尺寸" ){
+                            /*将一个商品信息存到对象里面----开始*/
+                            var $json = {
+                                "pname" : $pname,
+                                "pid" : $pid,
+                                "pcolor" : $( ".show .show-cen .show-cen-right button" ).attr( "pcolor" ),
+                                "psize" : $( ".show .show-cen .show-cen-right button" ).attr( "psize" ),
+                                "pyprice" : $pyprice,
+                                "pxprice" : $pxprice,
+                                "pnum" : Number( $( ".show .show-cen .show-cen-right button" ).attr( "pnum" ) ),
+                                "ppsrc" : $( ".show .show-cen .show-cen-right button" ).attr( "ppsrc" )
+                            }
+
+                            //console.log( $json );
+                            /*将一个商品信息存到对象里面----结束*/
+
+                            var str = localStorage.getItem( "prolist" );    //取出数据库中的内容
+                            if( str != null ){  //判断是否有内容
+                                parr = JSON.parse( str );   //穿换成对象然后传给数组
+
+                                parr.forEach( ( pro ) => {  //对得到的数组进行遍历
+                                    if( pro.pid === $json.pid && pro.psize == $json.psize && pro.pcolor == $json.pcolor ){    //当数组里面某个元素的id与当前的id相等的时候，数量增加
+                                        pro.pnum += Number( $( ".show .show-cen .show-cen-right button" ).attr( "pnum" ) );
+                                        flag = false;
+
+                                        return;
+                                    }
+                                } )
+                            }
+
+                            if( flag ){
+                                parr.push( $json );
+                            }
+
+                            localStorage.setItem( "prolist" , JSON.stringify( parr ) ); //存进数据库
+
+                            if( confirm( "去结算吗？" ) ){
+                                location.href = "shopCar.html";
+                            }
+                        }else{
+                            alert( "请选择尺寸和颜色！" )
+                        }
+                    
+                } )
+                
+                /*$( ".show .show-cen .show-cen-right button" ).click( function(){
+                    console.log( $pname , $pid , $pcolor , $psize , $pyprice , $pxprice , $pnum , $ppsrc );
+                } )*/
+                /*将数据添加到数据库里面----结束*/
+            }
+        } ) 
+        /*热卖网页数据的刷新---结束*/
+
+        /*点击购物袋的时候跳转页面----开始*/
+        $( ".logo .logo-cen " ).find( "p" ).click( function(){
+            //alert( );
+            location.href = "shopCar.html";
+        } )
+        /*点击购物袋的时候跳转页面----结束*/
+        
+    }
+
+    /*显示购物车的商品数量---开始*/
+    var zarr = JSON.parse( localStorage.getItem( "prolist" ) );
+    var zsum = 0 ;
+    for( var i = 0 ; i < zarr.length ; i++ ){
+        zsum += zarr[ i ].pnum;
+    }
+    $( ".logo .logo-cen p" ).find( "span" ).html( zsum );
+    /*显示购物车的商品数量---结束*/
+
+    /*动态图片的调整---开始*/
+    /*$( ".nav .nav-cen" ).find( "img" ).css( { 
+        "position" : "absolute"
+     } );*/
+    /*动态图片的调整---结束*/
+</script>
+</html>

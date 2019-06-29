@@ -1,0 +1,11 @@
+/*
+    工具包：清除各个标签的默认样式
+*/
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img{margin:0;padding:0}
+body{font-size:16px;font-family:"微软雅黑";}
+ul,ol,li{list-style:none;}
+b,strong{font-weight:normal;}
+i,em{font-style:normal;}
+a,u{text-decoration:none;}
+h1,h2,h3,h4,h5,h6{font-size:16px;font-weight:normal;}
+input{outline: none};

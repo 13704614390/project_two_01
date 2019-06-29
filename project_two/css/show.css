@@ -1,0 +1,942 @@
+/*登陆注册的导航*/
+.nav-login{ /*修饰外层的大盒子*/
+    width:100%;height:32px;
+    background:#fff;
+    border-bottom:1px solid #dcdcdc;
+}
+
+.nav-login .nav-login-center{/*修饰版心*/
+    width:1200px;height:32px;
+    background:#fff;
+    margin:0 auto;
+}
+
+.nav-login .nav-login-center p{/*修饰登录注册当中导航的文字*/
+    float:left;
+    font-size:12px;
+    line-height: 32px;
+    color:#999;
+}
+
+.nav-login .nav-login-center ul{
+    float:right;
+    position: relative;
+}
+
+.nav-login .nav-login-center ul li{/*设置导航中li的样式*/
+    float:left;
+    /*line-height:32px;*/
+    padding-top:5px;
+    
+}
+
+.nav-login .nav-login-center ul li a{/*修饰li中a的样式*/
+    color:#999;
+    font-size:12px;
+}
+
+.nav-login .nav-login-center ul li .sub,.nav-login .nav-login-center ul li .sub1{/*两个下三角的样式*/
+    width:0;height:0;
+    border:5px solid #fff;
+    border-top:5px solid #999;
+    display:inline-block;
+}
+
+.nav-login .nav-login-center ul li a:hover {/*设置鼠标滑过字体的样式*/
+    color:black;
+}
+
+.nav-login .nav-login-center ul li .erweima{/*设置鼠标没有滑过微信时候的样式*/
+    position: absolute;
+    top:32px;left:333px;
+    display:none;
+}
+
+.nav-login .nav-login-center ul li .weChat:hover .erweima{/*鼠标滑过微信的时候，显示对应的二维码*/
+    display:block;
+}
+
+.nav-login .nav-login-center ul li .erweimaDL{/*设置鼠标没有滑过下载APP时候的样式*/
+    position: absolute;
+    top:25px;left:280px;
+    display:none;
+}
+
+.nav-login .nav-login-center ul li:hover .dl .erweimaDL{/*鼠标滑过下载APP的时候，显示对应的二维码*/
+    display:block;
+    border:1px solid #ccc;
+    z-index: 0;
+    /*border-top:none;*/
+}
+
+.nav-login .nav-login-center ul .dlBigBox:hover{
+    border-right:1px solid #ccc;
+    border-left:1px solid #ccc;
+    
+    /*background:green;
+    border-bottom:1px solid red;*/
+}
+
+/*.nav-login .nav-login-center ul li:hover .dl a{
+    position: absolute;
+    z-index:1;
+}*/
+
+/*设置登陆底下的下拉框的初始样式*/
+.nav-login .nav-login-center ul .firstLi ol{
+    position: absolute;
+    display: none;
+    padding: 10px;
+    top:25px;
+    box-shadow: 0 1px 1px 0px #ccc;
+}
+
+.nav-login .nav-login-center ul .firstLi ol h2{
+    font-size:12px;
+    color:#000;
+    padding-bottom:6px;
+}
+
+/*修饰登录底下的下拉框*/
+.nav-login .nav-login-center ul .firstLi .loginH:hover{
+    border-left:1px solid #ccc;
+    border-right:1px solid #ccc;
+    padding-top:10px;
+}
+
+.nav-login .nav-login-center ul .firstLi .loginH:hover ol{
+    display: block;
+    border:1px solid #ccc;
+}
+
+.nav-login .nav-login-center ul .firstLi ol h2:hover{/*鼠标划上h2字体变色*/
+    color:#999;
+}
+
+/*修饰我的邦购的初始样式*/
+.nav-login .nav-login-center ul div h3{/*设置下拉框里面的内容按时*/
+    font-size:12px;
+    color:#000;
+    padding-bottom:7px;
+}
+
+.nav-login .nav-login-center ul div{/*设置下拉框的盒子样式*/
+    position: absolute;
+    left:132px;top:25px;
+    padding: 0 18px 0 12px;
+    display:none;
+}
+
+.nav-login .nav-login-center ul .banggou:hover div{
+    border:1px solid #ccc;
+    border-top:none;
+    display:block;
+}
+
+.nav-login .nav-login-center ul .banggou:hover{
+    border-right:1px solid #ccc;
+    border-left:1px solid #ccc;
+}
+
+.nav-login .nav-login-center ul .banggou div h3:hover{
+    color:#ccc;
+} 
+
+
+/*搜索框所在栏的修饰*/
+.logo{
+    width:100%;height:90px;
+    /*background:red;*/
+}
+
+.logo .logo-cen{
+    width:1200px;height:90px;
+    /*background:orange;*/
+    margin:0 auto;
+    line-height:90px;
+}
+
+/*先让横排排列*/
+.logo .logo-cen img,.logo .logo-cen .sousuo,.logo .logo-cen ul{
+    float:left;
+}
+
+.logo .logo-cen p{
+    float:right;
+}
+
+/*设置logo的基本样式以及鼠标划过的样式*/
+.logo .logo-cen img{
+    position: relative;
+    left:-18px;top:5px;
+    vertical-align: middle;
+    opacity:1;
+}
+
+.logo .logo-cen img:hover{
+    opacity:0.8;
+}
+
+/*搜索框的样式搭建*/
+.logo .logo-cen .sousuo{
+    padding-top:26px;
+}
+
+.logo .logo-cen .sousuo input{
+    float:left;
+}
+
+.logo .logo-cen .sousuo .kuang{
+    width:298px;height:32px;
+    border:1px solid #d51819;
+}
+
+.logo .logo-cen .sousuo .anniu{
+    width:81px;height:36px;
+    background:#d51819;
+    border:1px solid #d51819;
+    padding-left:39px;
+    font-size:12px;
+    color:#fff;
+}
+
+.logo .logo-cen .sousuo i{
+    position: relative;
+    left:-59px;top:-28px;
+    font-size:18px;
+    color:#fff;
+}
+
+/*设置ul的样式*/
+.logo .logo-cen ul li{
+    float:left;
+    color:#e0e0e8;
+}
+
+.logo .logo-cen ul li a{
+    font-size:12px;
+    margin-right:10px;
+    margin-left:10px;
+    color:#666;
+}
+
+/*设置购物车的样式*/
+.logo .logo-cen p{
+    margin-right:15px;
+    font-size:12px;
+    color:#000;
+}
+
+.logo .logo-cen p span{
+    color:#d93938;
+}
+
+.logo .logo-cen p:hover i{
+    color:#666;
+}
+
+
+/*真正导航栏的样式*/
+.nav{
+    width:100%;height:34px;
+    /*background:red;*/
+    border-bottom:2px solid #f0f0f0;
+    padding-bottom:10px;
+    /*overflow: hidden;*/
+}
+
+.nav .nav-cen{
+    width:1200px;height:34px;
+    margin:0 auto;
+   /* background:yellow; */ 
+}
+
+.nav .nav-cen .nav-ul{
+    float:left;
+   /* background:green;*/
+}
+
+.nav .nav-cen .nav-ul{
+    position: relative;
+    top:-4px;left:-665px;
+}
+
+/*.nav .nav-cen .nav-ol{
+    position: relative;
+    top:-39px;left:0444px;
+    margin-left:75px
+}*/
+
+.nav .nav-cen .nav-ul li{
+    float:left;
+    line-height:34px;
+}
+
+/*.nav .nav-cen .nav-ol{
+    float: left;
+    background:pink;
+}*/
+
+.nav .nav-cen .nav-ul li a{
+    font-size:12px;
+    color:#000;
+    padding:0 18px;
+}
+
+/*.nav .nav-cen .nav-ol li a{
+    font-size:20px;
+    color:#000;
+    padding:0 48px;
+    font-weight:bold;
+}*/
+
+.nav .nav-cen .shopcar{
+    position: relative;
+    left:942px;top:-48px;
+}
+
+.nav .nav-cen .nav-ul li:hover a{
+    color:#999;
+}
+
+.nav .nav-cen a:hover img{
+    opacity:0.8;
+}
+
+.nav .nav-cen img:hover{
+    opacity: 0.8;
+}
+
+.nav .nav-cen .nav-ul .nanzhuang:after{/*万能清除法*/
+    content:".";
+    clear:both;
+    display:block;
+    height:0;
+    visibility:hidden;
+}
+
+.nav .nav-cen .nav-ul .nanzhuang dd{
+    font-size:12px;color:#222;
+    line-height:40px;
+}
+
+
+/*商品显示区*/
+.show{
+    width:100%;height:664px;
+    margin-top:11px;
+}
+
+.show .show-cen{
+    width:1200px;height:664px;
+    /*background:green;*/
+    margin:0 auto;
+}
+
+.show .show-cen .show-cen-left{
+    width:480px;height: 664px;
+    /*background:yellow;*/
+    float:left;
+    margin-right:50px;
+}
+
+/*修饰选项卡-----开始*/
+.show .show-cen .show-cen-left #box{
+    position: relative;
+    width:480px;height:580px;
+}
+/**/
+.show .show-cen .show-cen-left #box ul{
+    overflow: hidden;
+    position: absolute;
+    top:500px;left:0;
+    width:480px;
+    /*background:salmon;*/
+    
+}
+
+.show .show-cen .show-cen-left #box li{
+    float:left;
+    width:78px;height:78px;
+    border:1px solid #c7c7c7;
+    margin-right:20px;
+}
+.show .show-cen .show-cen-left #box li img{
+    width:78px;
+}
+
+.show .show-cen .show-cen-left .small{
+    width:480px;height:480px;
+    background:fuchsia;
+}
+
+.show .show-cen .show-cen-left .small img{
+    position: absolute;
+    width:480px;
+    top:0;left:0;
+    
+}
+
+/*.show .show-cen .show-cen-left #bottom li{
+    width:80px;
+    margin-top:15px;
+}*/
+
+.show .show-cen .show-cen-left #big{
+    width:480px;height:480px;
+    border:1px solid #ccc;
+    overflow: hidden;
+    position: absolute;
+    top:0;left:513px;
+    display: none;
+}
+
+.show .show-cen .show-cen-left #mask{
+    width:240px;height:240px;
+    background:red;
+    opacity:0.4;
+    position: absolute;
+    top:0;left:0;
+    z-index: 10;
+}
+
+.show .show-cen .show-cen-left .bigImage{
+    position: absolute;
+    top:0;left:0px;
+}
+/*
+.show .show-cen .show-cen-left #small{
+    position: relative;
+    cursor:move;
+}*/
+/*修饰选项卡-----结束*/
+
+/*选项卡下面部分的修饰-----开始*/
+.show .show-cen .show-cen-left .goodsInfo{
+    height:48px;/*background:deeppink;*/
+    line-height:50px;
+}
+
+.show .show-cen .show-cen-left .goodsInfo span{
+    font-size:12px;
+    color:#999;
+    margin-right:76px;
+}
+
+.show .show-cen .show-cen-left .goodsInfo b{
+    display: inline-block;
+    width:80px;height:30px;
+    text-align: center;line-height: 30px;
+    background: url( "../images/showPic/fenxiang.jpg" ) 9px center no-repeat;
+    font-size:12px;
+    color:#999;
+}
+
+.show .show-cen .show-cen-left .goodsInfo strong{
+    display: inline-block;
+    width:80px;height:30px;
+    text-align: center;line-height: 30px;
+    font-size: 12px;
+    color:#999;
+    background:url( "../images/showPic/dz.jpg" ) 5px center no-repeat;
+    margin-left:45px;
+}
+/*选项卡下面部分的修饰-----结束*/
+
+/*分享框----开始*/
+.show .show-cen .show-cen-left .fxk{
+    width:200px;height:138px;
+    position: absolute;
+    top:843px;left:253px;
+    border:1px solid #e3e3e3;
+    display: none;
+}
+
+.show .show-cen .show-cen-left .fxk h2{
+    height:30px;background:#f6f6f6;
+    line-height:30px;
+    font-size:12px;
+    color:#242424;
+    font-weight:bold;
+    padding-left:5px;
+}
+
+.show .show-cen .show-cen-left .fxk li{
+    float:left;
+    width:63px;
+    font-size:12px;
+    color:#cfcccc;
+    font-weight:bold;
+    height:36px;line-height:36px;
+    padding-left:37px;
+    background:url( "../images/showPic/veo_mbshop_spirit_pic.png" ) 7px -1339px no-repeat;
+}
+/*分享框----结束*/
+
+.show .show-cen .show-cen-right{
+    height: 664px;width:670px;
+    /*background:khaki;*/
+    float:left;
+}
+
+/*右边的标题---开始*/
+.show .show-cen .show-cen-right h2{
+    height:37px;
+    /*background:fuchsia;*/
+    margin-top:35px;
+    padding-top:6px;
+    font-size: 16px;
+    color:#222;
+    font-weight:bold;
+}
+
+.show .show-cen .show-cen-right h2 i{
+    margin-left:24px;
+}
+
+/*右边的标题---结束*/
+
+/*右边的价格区域---开始*/
+.show .show-cen .show-cen-right .zk{
+    height:115px;background:#f6f6f6;
+}
+
+.show .show-cen .show-cen-right .zk p{
+    height:62px;
+    /*background:salmon;*/
+    line-height:62px;
+}
+
+.show .show-cen .show-cen-right .zk p em,.show .show-cen .show-cen-right .zk p strong{
+    font-size:12px;color:#222;
+}
+
+.show .show-cen .show-cen-right .zk p i{
+    font-size:18px;font-weight: bold;
+    color:#f8584f;
+}
+
+.show .show-cen .show-cen-right .zk p b{
+    font-size:10px;color:#696969;
+    text-decoration: line-through;
+}
+
+.show .show-cen .show-cen-right .zk p em{
+    margin-left:14px;
+    margin-right:12px;
+}
+
+.show .show-cen .show-cen-right .zk p strong{
+    margin-left:38px;
+    margin-right:10px;
+}
+
+.show .show-cen .show-cen-right .zk p b{
+    margin-right:360px;
+}
+
+.show .show-cen .show-cen-right .zk p u{
+    display:inline-block;
+    width:40px;height:20px;
+    background:#f84646;
+    text-align: center;line-height: 20px;
+    color:#fff;
+}
+
+.show .show-cen .show-cen-right .zk h3{
+    height:23px;
+    /*background:red;*/
+    font-size:12px;color:#696969;
+}
+
+.show .show-cen .show-cen-right .zk h3 span{
+    margin-left:14px;
+    margin-right:484px;
+}
+
+.show .show-cen .show-cen-right .zk h3 i{
+    text-decoration: underline;
+}
+
+.show .show-cen .show-cen-right .zk h4{
+    height:30px;
+    /*background:yellow;*/
+}
+
+.show .show-cen .show-cen-right .zk h4 span{
+    display:inline-block;
+    width:34px;height:20px;
+    background:#f84646;
+    font-size:12px;
+    color:#fff;
+    border-radius:2px 2px 2px 2px;
+    text-align: center;
+    line-height:20px;
+    margin-left:15px;
+    margin-right:10px;
+}
+
+.show .show-cen .show-cen-right .zk h4 i{
+    width:5px;height:5px;
+    border-radius:50%;
+    background:#f84646;
+    display: inline-block;
+    margin-bottom: 3px;
+    margin-right:5px;
+}
+
+.show .show-cen .show-cen-right .zk h4 em{
+    font-size:12px;
+    color:#f84646;
+    font-weight:bold;
+}
+/*右边的价格区域---结束*/
+
+/*右边销量区域---开始*/
+.show .show-cen .show-cen-right ul{
+    height:70px;
+    
+}
+
+.show .show-cen .show-cen-right ul li{
+    float:left;
+    width:90px;height:16px;
+    border-right:1px solid #ededed;
+    margin-top:26px;
+    line-height:16px;
+}
+
+.show .show-cen .show-cen-right ul li em{
+    font-size:12px;
+    color:#696969;
+    margin-right:5px;
+}
+
+.show .show-cen .show-cen-right ul li i{
+    font-size:10px;
+    color:#f8584f;
+}
+/*右边销量区域---结束*/
+
+/*右边选择颜色---开始*/
+.show .show-cen .show-cen-right .chooseColor{
+    height:102px;
+    
+}
+
+.show .show-cen .show-cen-right .chooseColor dd{
+    float:left;
+    width:53px;height:53px;
+    border:1px solid #dcdcdc;
+    margin-right:10px;
+}
+
+.show .show-cen .show-cen-right .chooseColor dd img{
+    width:53px;
+}
+
+.show .show-cen .show-cen-right .chooseColor dt{
+    margin-bottom:12px;
+}
+
+.show .show-cen .show-cen-right .chooseColor dt em{
+    font-size:12px;color:#000;
+}
+
+.show .show-cen .show-cen-right .chooseColor dt i{
+    font-size:12px;color:#666;
+}
+/*右边选择颜色---结束*/
+
+/*右边选择尺寸---开始*/
+.show .show-cen .show-cen-right .chooseSize{
+    height:75px;
+    
+}
+
+.show .show-cen .show-cen-right .chooseSize dt{
+    font-size:12px;
+    margin-bottom:20px;
+}
+
+.show .show-cen .show-cen-right .chooseSize dt em{
+    color:#000;
+}
+
+.show .show-cen .show-cen-right .chooseSize dt i{
+    color:#666;
+}
+
+.show .show-cen .show-cen-right .chooseSize dd u{
+    padding:10px 5px 7px;
+    border:1px solid #dcdcdc;
+    font-size: 10px;
+    color:#7d7d7d;
+}
+/*右边选择尺寸---结束*/
+
+/*选择数量----开始*/
+.show .show-cen .show-cen-right h5{
+    height:45px;
+    /*background:darkcyan;*/
+}
+
+.show .show-cen .show-cen-right h5 em{
+    font-size:12px;
+    color:#000;
+    margin-right:13px;
+}
+
+.show .show-cen .show-cen-right h5 i,.show .show-cen .show-cen-right h5 s{
+    width:23px;height:23px;
+    border:1px solid #dcdcdc;
+    text-align: center;
+    line-height:23px;
+    display: inline-block;
+    color:#999;
+}
+
+.show .show-cen .show-cen-right h5 u{
+    width:40px;height:23px;
+    display: inline-block;
+    line-height:23px;
+    text-align: center;
+    margin:0 5px;color:#999;
+}
+/*选择数量----结束*/
+
+/*加入购物袋----开始*/
+.show .show-cen .show-cen-right .jrgwc{
+    width:200px;height:35px;
+    background:#f8584f;
+    text-align: center;
+    line-height:35px;
+    color:#fff;
+    font-size:12px;
+    font-weight:bold;
+    outline: none;
+    border:1px  solid #f8584f;
+    border-radius:4px;
+}
+/*加入购物袋----结束*/
+
+/*浏览更多--开始*/
+.show .show-cen .show-cen-right h6{
+    height:60px;
+    
+    line-height:60px;
+}
+
+.show .show-cen .show-cen-right h6 em{
+    font-size: 12px;
+    color:#000;
+}
+
+.show .show-cen .show-cen-right h6 i{
+    font-size: 12px;
+    color:#999;
+}
+/*浏览更多--结束*/
+
+/*温馨提示--开始*/
+.show .show-cen .show-cen-right .hint{
+    height:65px;/*background:darkcyan;*/
+}
+
+.show .show-cen .show-cen-right .hint dt,.show .show-cen .show-cen-right .hint dd{
+    float:left;
+}
+
+.show .show-cen .show-cen-right .hint dt{
+    font-size:12px;
+    color:#000;
+    margin-top:5px;
+}
+
+.show .show-cen .show-cen-right .hint dd b{
+    font-size:12px;color:#999;
+}
+
+.show .show-cen .show-cen-right .hint dd b em{
+    display: inline-block;
+    width:5px;height:5px;
+    background:#666;
+    border-radius:50%;
+    margin-right:5px;
+}
+
+/*温馨提示--结束*/
+
+/*官方信息板块*/
+.offiInfo{
+    width:100%;min-height:100px;
+    border-bottom:1px solid #dcdcdc;
+}
+
+.offiInfo:after{/*万能清除法*/
+    content:".";
+    clear:both;
+    display:block;
+    height:0;
+    visibility:hidden;
+}
+
+.offiInfo .offiInfo-cen{
+    width:1200px;min-height: 100px;
+    margin:0 auto;
+    /*background:green;*/
+    padding-top:53px;
+    padding-bottom:40px;
+}
+
+.offiInfo .offiInfo-cen:after{/*万能清除法*/
+    content:".";
+    clear:both;
+    display:block;
+    height:0;
+    visibility:hidden;
+}
+
+.offiInfo .offiInfo-cen .qiansan img,.offiInfo .offiInfo-cen dl{
+    float:left;
+}
+
+.offiInfo .offiInfo-cen .qiansan img{
+    border-left:1px solid #dcdcdc;
+    border-top:1px solid #dcdcdc;
+    border-bottom:1px solid #dcdcdc;
+    vertical-align: middle;
+}
+
+.offiInfo .offiInfo-cen dl dt img{/*清除图片的默认三像素*/
+    vertical-align: middle;
+    
+    border-right:1px solid #dcdcdc;
+}
+
+.offiInfo .offiInfo-cen dl{
+    width:358px;height:238px;
+    border-left:1px solid #dcdcdc;
+    border-bottom:1px solid #dcdcdc;
+    border-right:1px solid #dcdcdc;
+    border-top:1px solid #dcdcdc;
+}
+
+.offiInfo .offiInfo-cen dl dt img{
+    border-bottom:1px solid #dcdcdc;
+}
+
+.offiInfo .offiInfo-cen dl div{
+    width:118px;height:60px;
+    float:left;
+    text-align: center;
+    margin-top:14px;
+    font-size:12px;
+    color:#9999a6;
+    font-weight:bold;
+    border-right:1px solid #dcdcdc;
+}
+
+.offiInfo .offiInfo-cen dl div p{
+    margin-top:10px;
+}
+
+.offiInfo .offiInfo-cen img:hover{
+    opacity:0.8;
+}
+
+/*底部信息*/
+.footer{
+    width:100%;height:290px;
+}
+
+.footer .footer-cen{
+    width:1200px;height:290px;
+    margin:0 auto;
+    /*background:red;*/
+}
+
+.footer .footer-title{
+    width:100%;height:39px;
+    background:#f7f7f7;
+
+}
+
+.footer .footer-title .footer-title-center{
+    width:1200px;height:39px;
+    margin:0 auto;
+    background:#f7f7f7;
+    line-height:39px;
+}
+
+.footer .footer-title .footer-title-center a{
+    font-size:12px;
+    color:#231815;
+    font-weight:bold;
+    margin-right:143px;
+}
+
+.footer .footer-cen .footer-list{
+    height:140px;
+    border-bottom:1px solid #999;
+}
+
+.footer .footer-cen .footer-list a{
+    font-size:12px;
+    color:#231815;
+}
+
+.footer .footer-cen .footer-list ul{
+    float:left;
+    margin-top:11px;
+    padding-bottom:22px;
+}
+
+.footer .footer-cen .footer-list ul li{
+    line-height:30px;
+}
+
+.footer .footer-cen p{
+    width:1200px;height:30px;
+    margin-top:24px;
+    text-align: center;
+    /*background:yellow;*/
+}
+
+.footer .footer-cen p span,.footer .footer-cen p a{
+    font-size:14px;
+    color:#787878;
+    font-weight:bold;
+}
+
+.footer .footer-cen .shangbiao{
+    text-align: center;
+}
+
+.footer .footer-cen .shangbiao img:hover{
+    opacity:0.8;
+}
+
+/*小火箭*/
+.huojian{
+    width:60px;height:auto;
+    position: fixed;
+    right:0;
+    bottom:0px;
+    z-index: 100;
+}
+
+.huojian:after{
+    content:".";
+    clear:both;
+    display:block;
+    height:0;
+    visibility:hidden;
+}
+
+.huojian a{
+    display: inline-block;
+    width:55px;height:85px;
+    
+}
+/*width480*/

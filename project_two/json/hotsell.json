@@ -1,0 +1,484 @@
+{
+    "classify001":{
+		"name" : "今日热卖",
+		"list" : [
+			{
+				"id" : "hotsell001",
+                "name1" : "METERSBONWE",
+                "name2" : "5.8折",
+                "title" : "【夏季新品】男休闲字母印花短袖T恤",
+                "src1" : "../images/indexPic/hotsell/01.jpg",
+                "src2" : "../images/indexPic/hotsell/001.png",
+                "price1" : "￥69.00",
+                "price2" : "￥119.00",
+                "price3" : "￥41.9"
+			},
+			{
+				"id" : "hotsell002",
+                "name1" : "METERSBONWE",
+                "name2" : "6.7折",
+                "title" : "【夏季新品】女情侣前胸小字母短袖T恤",
+                "src1" : "../images/indexPic/hotsell/02.jpg",
+                "src2" : "../images/indexPic/hotsell/002.png",
+                "price1" : "￥79.90",
+                "price2" : "￥119.00",
+                "price3" : "￥48.9"
+			},
+			{
+				"id" : "hotsell003",
+                "name1" : "METERSBONWE",
+                "name2" : "7.6折",
+                "title" : "【夏季新品】男基础多色针织短袖T恤",
+                "src1" : "../images/indexPic/hotsell/03.jpg",
+                "src2" : "../images/indexPic/hotsell/003.png",
+                "price1" : "￥59.90",
+                "price2" : "￥79.00",
+                "price3" : "￥41.9"
+			},
+			{
+				"id" : "hotsell004",
+                "name1" : "METERSBONWE",
+                "name2" : "5.2折",
+                "title" : "【夏季新品】女潮流照片阴影印",
+                "src1" : "../images/indexPic/hotsell/04.jpg",
+                "src2" : "../images/indexPic/hotsell/004.png",
+                "price1" : "￥71.90",
+                "price2" : "￥139.00",
+                "price3" : "￥41.9"
+			},
+			{
+				"id" : "hotsell005",
+                "name1" : "METERSBONWE",
+                "name2" : "5.6折",
+                "title" : "【夏季新品】男纯棉条纹短袖T",
+                "src1" : "../images/indexPic/hotsell/05.jpg",
+                "src2" : "../images/indexPic/hotsell/005.png",
+                "price1" : "￥89.00",
+                "price2" : "￥159.00",
+                "price3" : "￥41.9"
+			},
+			{
+				"id" : "hotsell006",
+                "name1" : "ME&CITY",
+                "name2" : "1.4折",
+                "title" : "女士抽绳细节连衣裙",
+                "src1" : "../images/indexPic/hotsell/06.jpg",
+                "src2" : "../images/indexPic/hotsell/006.png",
+                "price1" : "￥83.90",
+                "price2" : "￥599.00",
+                "price3" : "￥41.9"
+			},
+			{
+				"id" : "hotsell007",
+                "name1" : "METERSBONWE",
+                "name2" : "7.5折",
+                "title" : "男COOLMAX面料洗水牛仔中裤",
+                "src1" : "../images/indexPic/hotsell/07.jpg",
+                "src2" : "../images/indexPic/hotsell/007.png",
+                "price1" : "￥126.90",
+                "price2" : "￥169.00",
+                "price3" : "￥59.9"
+			},
+			{
+				"id" : "hotsell008",
+                "name1" : "ME&CITY",
+                "name2" : "3.3折",
+                "title" : "【夏季新品】女棉麻波点连衣裙",
+                "src1" : "../images/indexPic/hotsell/08.jpg",
+                "src2" : "../images/indexPic/hotsell/008.png",
+                "price1" : "￥195.90",
+                "price2" : "￥599.00",
+                "price3" : "￥41.9"
+			},
+			{
+				"id" : "hotsell009",
+                "name1" : "妮芬儿",
+                "name2" : "1.4折",
+                "title" : "男士纯色圆领短袖T恤衫打底衫",
+                "src1" : "../images/indexPic/hotsell/09.jpg",
+                "src2" : "../images/indexPic/hotsell/009.png",
+                "price1" : "￥27.00",
+                "price2" : "￥199.00",
+                "price3" : "￥41.9"
+			},
+			{
+				"id" : "hotsell0010",
+                "name1" : "菲铂娅",
+                "name2" : "1.6折",
+                "title" : "2019新款夏季短袖韩版纯色",
+                "src1" : "../images/indexPic/hotsell/010.jpg",
+                "src2" : "../images/indexPic/hotsell/0010.png",
+                "price1" : "￥49.00",
+                "price2" : "￥299.00",
+                "price3" : "￥39.2"
+			}
+		]
+    },
+    
+    "classify002" : {
+        "name" : "男装",
+        "list" : [
+            {
+				"id" : "nanzhuang001",
+                "name1" : "METERSBONWE",
+                "name2" : "5.8折",
+                "title" : "【夏季新品】男式彩色色织条纹",
+                "src1" : "../images/indexPic/manP/content/021.jpg",
+                "src2" : "../images/indexPic/manP/content/022.png",
+                "price1" : "￥169.00",
+                "price2" : "￥119.00",
+                "price3" : "￥118.3"
+            },
+            {
+				"id" : "nanzhuang002",
+                "name1" : "METERSBONWE",
+                "name2" : "4.4折",
+                "title" : "【夏季新品】男复古学院风三色",
+                "src1" : "../images/indexPic/manP/content/031.jpg",
+                "src2" : "../images/indexPic/manP/content/032.png",
+                "price1" : "￥69.9",
+                "price2" : "￥159.00",
+                "price3" : "￥48.9"
+            },
+            {
+				"id" : "nanzhuang003",
+                "name1" : "METERSBONWE",
+                "name2" : "4.4折",
+                "title" : "【夏季新品】男式时尚印花合体",
+                "src1" : "../images/indexPic/manP/content/041.jpg",
+                "src2" : "../images/indexPic/manP/content/042.png",
+                "price1" : "￥119.00",
+                "price2" : "￥159.00",
+                "price3" : "￥83.3"
+            },
+            {
+				"id" : "nanzhuang004",
+                "name1" : "METERSBONWE",
+                "name2" : "5.3折",
+                "title" : "【春季新品】男潮流袖子拼接圆领短袖恤",
+                "src1" : "../images/indexPic/manP/content/051.jpg",
+                "src2" : "../images/indexPic/manP/content/052.png",
+                "price1" : "￥89.9",
+                "price2" : "￥169.00",
+                "price3" : "￥118.3"
+            },
+            {
+				"id" : "nanzhuang005",
+                "name1" : "METERSBONWE",
+                "name2" : "5折",
+                "title" : "【夏季新品】男潮流国潮印花短袖T恤",
+                "src1" : "../images/indexPic/manP/content/061.jpg",
+                "src2" : "../images/indexPic/manP/content/062.png",
+                "price1" : "￥79.9",
+                "price2" : "￥159.00",
+                "price3" : "￥55.9"
+            },
+            {
+				"id" : "nanzhuang006",
+                "name1" : "METERSBONWE",
+                "name2" : "5折",
+                "title" : "【夏季新品】男休闲宽松条纹衬衫",
+                "src1" : "../images/indexPic/manP/content/071.jpg",
+                "src2" : "../images/indexPic/manP/content/072.png",
+                "price1" : "￥199.00",
+                "price2" : "￥159.00",
+                "price3" : "￥139.3"
+            },
+            {
+				"id" : "nanzhuang007",
+                "name1" : "METERSBONWE",
+                "name2" : "2.9折",
+                "title" : "【夏季新品】男迷彩休闲中裤",
+                "src1" : "../images/indexPic/manP/content/081.jpg",
+                "src2" : "../images/indexPic/manP/content/082.png",
+                "price1" : "￥99.9",
+                "price2" : "￥349.00",
+                "price3" : "￥118.3"
+            },
+            {
+				"id" : "nanzhuang008",
+                "name1" : "METERSBONWE",
+                "name2" : "2.9折",
+                "title" : "【夏季新品】男质朴工装宽松中裤",
+                "src1" : "../images/indexPic/manP/content/091.jpg",
+                "src2" : "../images/indexPic/manP/content/092.png",
+                "price1" : "￥199.00",
+                "price2" : "￥349.00",
+                "price3" : "￥118.3"
+            }
+        ]
+    },
+
+    "classify003" : {
+        "name" : "女装",
+        "list" : [
+            {
+                "id" : "nvzhuang001",
+                "name1" : "METERSBONWE",
+                "name2" : "5折",
+                "title" : "【夏季新品】女潮流撞色罗纹中",
+                "src1" : "../images/indexPic/nvP/021.jpg",
+                "src2" : "../images/indexPic/nvP/022.png",
+                "price1" : "￥69.9",
+                "price2" : "￥139.00",
+                "price3" : "￥41.9"
+            },
+            {
+                "id" : "nvzhuang002",
+                "name1" : "METERSBONWE",
+                "name2" : "5.7折",
+                "title" : "【夏季新品】女宽松字母凸印短",
+                "src1" : "../images/indexPic/nvP/031.jpg",
+                "src2" : "../images/indexPic/nvP/032.png",
+                "price1" : "￥79.00",
+                "price2" : "￥139.00",
+                "price3" : "￥55.3"
+            },
+            {
+                "id" : "nvzhuang003",
+                "name1" : "METERSBONWE",
+                "name2" : "5.7折",
+                "title" : "【夏季新品】女MTEE中国味道",
+                "src1" : "../images/indexPic/nvP/041.jpg",
+                "src2" : "../images/indexPic/nvP/042.png",
+                "price1" : "￥99.00",
+                "price2" : "￥139.00",
+                "price3" : "￥55.3"
+            },
+            {
+                "id" : "nvzhuang004",
+                "name1" : "METERSBONWE",
+                "name2" : "6.7折",
+                "title" : "女休闲五分袖收腰连衣裙",
+                "src1" : "../images/indexPic/nvP/051.jpg",
+                "src2" : "../images/indexPic/nvP/052.png",
+                "price1" : "￥159.90",
+                "price2" : "￥239.00",
+                "price3" : "￥95.9"
+            },
+            {
+                "id" : "nvzhuang005",
+                "name1" : "METERSBONWE",
+                "name2" : "5.9折",
+                "title" : "女雪纺印花直身大摆梭织连衣裙",
+                "src1" : "../images/indexPic/nvP/061.jpg",
+                "src2" : "../images/indexPic/nvP/062.png",
+                "price1" : "￥159.90",
+                "price2" : "￥269.00",
+                "price3" : "￥111.9"
+            },
+            {
+                "id" : "nvzhuang006",
+                "name1" : "ME&CIT",
+                "name2" : "2.8折",
+                "title" : "女收腰印花连衣裙",
+                "src1" : "../images/indexPic/nvP/071.jpg",
+                "src2" : "../images/indexPic/nvP/072.png",
+                "price1" : "￥195.90",
+                "price2" : "￥699.00",
+                "price3" : "￥111.9"
+            },
+            {
+                "id" : "nvzhuang007",
+                "name1" : "METERSBONWE",
+                "name2" : "8.3折",
+                "title" : "女MTEE唐老鸭前斜门襟牛仔背带裤",
+                "src1" : "../images/indexPic/nvP/081.jpg",
+                "src2" : "../images/indexPic/nvP/082.png",
+                "price1" : "￥198.90",
+                "price2" : "￥239.00",
+                "price3" : "￥119.3"
+            },
+            {
+                "id" : "nvzhuang008",
+                "name1" : "METERSBONWE",
+                "name2" : "8.3折",
+                "title" : "【夏季新品】女潮流多方面针织衫",
+                "src1" : "../images/indexPic/nvP/091.jpg",
+                "src2" : "../images/indexPic/nvP/092.png",
+                "price1" : "￥169.00",
+                "price2" : "￥239.00",
+                "price3" : "￥119.3"
+            }
+        ]
+    },
+
+    "classify004" : {
+        "name" : "童装",
+        "list" : [
+            {
+                "id" : "child001",
+                "name1" : "MOOMOO",
+                "name2" : "8折",
+                "title" : "男中童一款多花背心",
+                "src1" : "../images/indexPic/childP/content/021.jpg",
+                "price1" : "￥54.9",
+                "price2" : "￥69.00"
+            },
+            {
+                "id" : "child002",
+                "name1" : "MOOMOO",
+                "name2" : "2.4折",
+                "title" : "迪士尼男童漫威针织恤",
+                "src1" : "../images/indexPic/childP/content/031.jpg",
+                "price1" : "￥23.9",
+                "price2" : "￥99.00"
+            },
+            {
+                "id" : "child003",
+                "name1" : "MOOMOO",
+                "name2" : "3折",
+                "title" : "男中童潮流休闲拼接T恤",
+                "src1" : "../images/indexPic/childP/content/041.jpg",
+                "price1" : "￥29.9",
+                "price2" : "￥99.00"
+            },
+            {
+                "id" : "child004",
+                "name1" : "米喜迪",
+                "name2" : "2.2折",
+                "title" : "女童立体小花公主梭织连衣裙",
+                "src1" : "../images/indexPic/childP/content/051.jpg",
+                "price1" : "￥108.9",
+                "price2" : "￥499.00"
+            },
+            {
+                "id" : "child005",
+                "name1" : "米喜迪",
+                "name2" : "4.3折",
+                "title" : "女童时尚镂肩短袖衬衫",
+                "src1" : "../images/indexPic/childP/content/061.jpg",
+                "price1" : "￥98.9",
+                "price2" : "￥229.00"
+            },
+            {
+                "id" : "child006",
+                "name1" : "MOOMOO",
+                "name2" : "3折",
+                "title" : "女中童浪漫雪纺连衣裙",
+                "src1" : "../images/indexPic/childP/content/071.jpg",
+                "price1" : "￥89.9",
+                "price2" : "￥299.00"
+            },
+            {
+                "id" : "child007",
+                "name1" : "MOOMOO",
+                "name2" : "3折",
+                "title" : "女中童无袖蛋糕雪纺梭织上衣",
+                "src1" : "../images/indexPic/childP/content/081.jpg",
+                "price1" : "￥53.9",
+                "price2" : "￥179.00"
+            },
+            {
+                "id" : "child008",
+                "name1" : "米喜迪",
+                "name2" : "5.5折",
+                "title" : "女婴童珠片绣贝壳平面针织",
+                "src1" : "../images/indexPic/childP/content/091.jpg",
+                "price1" : "￥86.9",
+                "price2" : "￥159.00"
+            }
+        ]
+    },
+
+    "classify005" : {
+        "name" : "鞋包",
+        "list" : [
+            {
+                "id" : "xiebao001",
+                "name1" : "香港老爷车",
+                "name2" : "2.4折",
+                "title" : "男士春季新品4D打印飞织鞋网",
+                "src1" : "../images/indexPic/shoesP/content/021.jpg",
+                "src2" : "../images/indexPic/shoesP/content/022.png",
+                "price1" : "￥118.00",
+                "price2" : "￥498.00",
+                "price3" : "￥94.4"
+            },
+            
+            {
+                "id" : "xiebao002",
+                "name1" : "香港老爷车",
+                "name2" : "2折",
+                "title" : "女款春季新品小熊运动潮鞋",
+                "src1" : "../images/indexPic/shoesP/content/031.jpg",
+                "src2" : "../images/indexPic/shoesP/content/032.png",
+                "price1" : "￥98.00",
+                "price2" : "￥498.00",
+                "price3" : "￥78.4"
+            },
+
+            {
+                "id" : "xiebao003",
+                "name1" : "维丹诺",
+                "name2" : "3.2折",
+                "title" : "2018秋冬新款透气女鞋",
+                "src1" : "../images/indexPic/shoesP/content/041.jpg",
+                "src2" : "../images/indexPic/shoesP/content/042.png",
+                "price1" : "￥64.00",
+                "price2" : "￥198.00",
+                "price3" : "￥57.6"
+            },
+
+            {
+                "id" : "xiebao004",
+                "name1" : "铂叮",
+                "name2" : "1.2折",
+                "title" : "白色硫化鞋韩版经典男鞋",
+                "src1" : "../images/indexPic/shoesP/content/051.jpg",
+                "src2" : "../images/indexPic/shoesP/content/052.png",
+                "price1" : "￥59.00",
+                "price2" : "￥499.00",
+                "price3" : "￥47.2"
+            },
+
+            {
+                "id" : "xiebao005",
+                "name1" : "铂叮",
+                "name2" : "1.4折",
+                "title" : "新款休闲男鞋学生潮鞋春季小白",
+                "src1" : "../images/indexPic/shoesP/content/061.jpg",
+                "src2" : "../images/indexPic/shoesP/content/062.png",
+                "price1" : "￥69.00",
+                "price2" : "￥499.00",
+                "price3" : "￥55.2"
+            },
+
+            {
+                "id" : "xiebao006",
+                "name1" : "香港老爷车",
+                "name2" : "2折",
+                "title" : "春夏新品透气飞织鞋",
+                "src1" : "../images/indexPic/shoesP/content/071.jpg",
+                "src2" : "../images/indexPic/shoesP/content/072.png",
+                "price1" : "￥98.00",
+                "price2" : "￥498.00",
+                "price3" : "￥78.4"
+            },
+
+            {
+                "id" : "xiebao007",
+                "name1" : "香港老爷车",
+                "name2" : "2折",
+                "title" : "男款春款小熊鞋熊猫鞋",
+                "src1" : "../images/indexPic/shoesP/content/081.jpg",
+                "src2" : "../images/indexPic/shoesP/content/082.png",
+                "price1" : "￥98.00",
+                "price2" : "￥498.00",
+                "price3" : "￥78.4"
+            },
+
+            {
+                "id" : "xiebao008",
+                "name1" : "香港老爷车",
+                "name2" : "1.8折",
+                "title" : "春季开学季男鞋韩版板鞋",
+                "src1" : "../images/indexPic/shoesP/content/091.jpg",
+                "src2" : "../images/indexPic/shoesP/content/092.png",
+                "price1" : "￥88.00",
+                "price2" : "￥498.00",
+                "price3" : "￥70.4"
+            }
+        ]
+    }
+}

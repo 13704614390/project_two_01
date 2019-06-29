@@ -1,0 +1,685 @@
+/*登陆注册的导航*/
+.nav-login{ /*修饰外层的大盒子*/
+    width:100%;height:32px;
+    background:#fff;
+    border-bottom:1px solid #dcdcdc;
+}
+
+.nav-login .nav-login-center{/*修饰版心*/
+    width:1200px;height:32px;
+    background:#fff;
+    margin:0 auto;
+}
+
+.nav-login .nav-login-center p{/*修饰登录注册当中导航的文字*/
+    float:left;
+    font-size:12px;
+    line-height: 32px;
+    color:#999;
+}
+
+.nav-login .nav-login-center ul{
+    float:right;
+    position: relative;
+}
+
+.nav-login .nav-login-center ul li{/*设置导航中li的样式*/
+    float:left;
+    /*line-height:32px;*/
+    padding-top:5px;
+    
+}
+
+.nav-login .nav-login-center ul li a{/*修饰li中a的样式*/
+    color:#999;
+    font-size:12px;
+}
+
+.nav-login .nav-login-center ul li .sub,.nav-login .nav-login-center ul li .sub1{/*两个下三角的样式*/
+    width:0;height:0;
+    border:5px solid #fff;
+    border-top:5px solid #999;
+    display:inline-block;
+}
+
+.nav-login .nav-login-center ul li a:hover {/*设置鼠标滑过字体的样式*/
+    color:black;
+}
+
+.nav-login .nav-login-center ul li .erweima{/*设置鼠标没有滑过微信时候的样式*/
+    position: absolute;
+    top:32px;left:333px;
+    display:none;
+}
+
+.nav-login .nav-login-center ul li .weChat:hover .erweima{/*鼠标滑过微信的时候，显示对应的二维码*/
+    display:block;
+}
+
+.nav-login .nav-login-center ul li .erweimaDL{/*设置鼠标没有滑过下载APP时候的样式*/
+    position: absolute;
+    top:25px;left:280px;
+    display:none;
+}
+
+.nav-login .nav-login-center ul li:hover .dl .erweimaDL{/*鼠标滑过下载APP的时候，显示对应的二维码*/
+    display:block;
+    border:1px solid #ccc;
+    z-index: 0;
+    /*border-top:none;*/
+}
+
+.nav-login .nav-login-center ul .dlBigBox:hover{
+    border-right:1px solid #ccc;
+    border-left:1px solid #ccc;
+    
+    /*background:green;
+    border-bottom:1px solid red;*/
+}
+
+/*.nav-login .nav-login-center ul li:hover .dl a{
+    position: absolute;
+    z-index:1;
+}*/
+
+/*设置登陆底下的下拉框的初始样式*/
+.nav-login .nav-login-center ul .firstLi ol{
+    position: absolute;
+    display: none;
+    padding: 10px;
+    top:25px;
+    box-shadow: 0 1px 1px 0px #ccc;
+}
+
+.nav-login .nav-login-center ul .firstLi ol h2{
+    font-size:12px;
+    color:#000;
+    padding-bottom:6px;
+}
+
+/*修饰登录底下的下拉框*/
+.nav-login .nav-login-center ul .firstLi .loginH:hover{
+    border-left:1px solid #ccc;
+    border-right:1px solid #ccc;
+    padding-top:10px;
+}
+
+.nav-login .nav-login-center ul .firstLi .loginH:hover ol{
+    display: block;
+    border:1px solid #ccc;
+}
+
+.nav-login .nav-login-center ul .firstLi ol h2:hover{/*鼠标划上h2字体变色*/
+    color:#999;
+}
+
+/*修饰我的邦购的初始样式*/
+.nav-login .nav-login-center ul div h3{/*设置下拉框里面的内容按时*/
+    font-size:12px;
+    color:#000;
+    padding-bottom:7px;
+}
+
+.nav-login .nav-login-center ul div{/*设置下拉框的盒子样式*/
+    position: absolute;
+    left:132px;top:25px;
+    padding: 0 18px 0 12px;
+    display:none;
+}
+
+.nav-login .nav-login-center ul .banggou:hover div{
+    border:1px solid #ccc;
+    border-top:none;
+    display:block;
+}
+
+.nav-login .nav-login-center ul .banggou:hover{
+    border-right:1px solid #ccc;
+    border-left:1px solid #ccc;
+}
+
+.nav-login .nav-login-center ul .banggou div h3:hover{
+    color:#ccc;
+} 
+
+/*logo所在行*/
+.logo{
+    width:100%;height:92px;
+    
+    border-bottom:1px solid #ccc;
+}
+
+.logo .logo-cen{
+    width:1200px;height:92px;
+    
+    margin:0 auto;
+
+}
+
+.logo .logo-cen img{
+    vertical-align: top;
+    position: relative;
+    left:-20px;
+}
+
+.logo .logo-cen span{
+    display:inline-block;
+    width:400px;height:40px;
+    margin-left:529px;
+    position: relative;
+    top:53px;
+    background:green;
+    background:url( "../images/showPic/veo_mbshop_spirit_pic.png" ) 0 -1568px no-repeat;
+}
+
+/*标题所在行*/
+.title{
+    width:100%;height:77px;
+    
+}
+
+.title .title-cen{
+    width:1200px;height:77px;
+    
+    margin:0 auto;
+}
+
+.title .title-cen h2{
+    width:100px;height:77px;
+    line-height:77px;
+    font-size:18px;color:#000;
+    font-weight:bold;
+}
+
+/*购物车内容*/
+.shopCar{
+    width:100%;height: 40px;
+    
+}
+
+.shopCar .shopCar-cen{
+    width:1200px;height:40px;
+    
+    margin:0 auto;
+}
+
+
+
+.shopCar .shopCar-cen .shopCar-zbt{
+    width:1200px;height:40px;
+    background:#f8f7f7;
+    line-height: 40px;
+    font-size:12px;
+    color:#000;
+}
+
+.shopCar .shopCar-cen .shopCar-zbt input{
+    margin-left:10px;
+    margin-right:12px;
+}
+
+.shopCar .shopCar-cen .shopCar-zbt i{
+    margin-left:60px;
+}
+
+.shopCar .shopCar-cen .shopCar-zbt u{
+    margin-left:200px;
+}
+
+.shopCar .shopCar-cen .shopCar-zbt em{
+    margin-left:160px;
+}
+
+.shopCar .shopCar-cen .shopCar-zbt b{
+    margin-left:165px;
+}
+
+.shopCar .shopCar-cen .shopCar-zbt strong{
+    margin-left:153px;
+}
+
+.shopCar .shopCar-cen .shopCar-zbt s{
+    margin-left:130px;
+}
+
+/*购物车内容*/
+.shopCarCon{
+    width:100%;min-height:100px;
+    
+    margin-top:20px;
+}
+
+.shopCarCon .shopCarCon-cen{
+    width:1200px;
+    margin:0 auto;
+    border:1px solid #ccc;
+}
+
+.shopCarCon .shopCarCon-cen .yhInfo{
+    width:1200px;height:40px;
+    background:#fcf6ee;
+    border-bottom:1px solid #eaeaea;
+}
+
+.shopCarCon .shopCarCon-cen .yhInfo span{
+    display:inline-block;
+    width:53px;height:23px;
+    border:1px dashed #f8584f;
+    color:#f8584f;font-size:12px;
+    margin-left:10px;margin-top:8px;
+    line-height:23px;text-align: center;
+}
+
+.shopCarCon .shopCarCon-cen .yhInfo i{
+    font-size:12px;color:#000;
+    margin-left:22px;
+
+}
+
+.shopCarCon .shopCarCon-cen .proInfo{
+    height:120px;width:1200px;
+    position: relative;
+}
+
+/*多选框-----开始*/
+.shopCarCon .shopCarCon-cen .proInfo input{
+    margin-top:20px;
+    margin-left:10px;
+    position: relative;
+    top:-65px;
+}
+/*多选框-----开始*/
+
+/*商品图片修饰----开始*/
+.shopCarCon .shopCarCon-cen .proInfo .prosrc{
+    width:78px;height:78px;
+    display: inline-block;
+    border:1px solid #eaeaea;
+    margin-top:20px;
+    margin-left:8px;
+}
+
+.shopCarCon .shopCarCon-cen .proInfo .prosrc img{
+    width:78px;
+}
+/*商品图片修饰----结束*/
+
+/*商品信息描述---开始*/
+.shopCarCon .shopCarCon-cen .proInfo p{
+    display:inline-block;
+    width:144px;height:78px;
+    /*border:1px solid red;*/
+    font-size:12px;
+    position: absolute;
+    top:20px;
+    margin-left:10px;
+}
+
+.shopCarCon .shopCarCon-cen .proInfo p i{
+    display:inline-block;
+    line-height:20px;
+}
+
+.shopCarCon .shopCarCon-cen .proInfo p b{
+    display:inline-block;
+    color:#999;
+}
+
+.shopCarCon .shopCarCon-cen .proInfo p strong{
+    display:inline-block;
+    color:#c7c7c7;
+    padding-left:18px;
+    background:url( "../images/showPic/hhb.jpg" ) 0 center no-repeat;
+}
+/*商品信息描述---结束*/
+
+/*颜色尺码修饰-----开始*/
+.shopCarCon .shopCarCon-cen .proInfo .colorsize{
+    display: inline-block;
+    width:144px;height:78px;
+    /*border:1px solid red;*/
+    position: absolute;
+    top:20px;
+    left:368px;
+    
+}
+.shopCarCon .shopCarCon-cen .proInfo .colorsize h2,.shopCarCon .shopCarCon-cen .proInfo .colorsize h3{
+    font-size:12px;color:#000;
+}
+/*颜色尺码修饰-----结束*/
+
+/*原价修饰------开始*/
+.shopCarCon .shopCarCon-cen .proInfo .yPrice{
+    display: inline-block;
+    width:144px;height:78px;
+    /*border:1px solid black;*/
+    position: absolute;
+    top:20px;
+    left:575px;
+    font-size:14px;
+    font-weight:bold;
+    color:#ccc;
+}
+/*原价修饰------开始*/
+
+/*加减按钮的修饰----开始*/
+.shopCarCon .shopCarCon-cen .proInfo .jjbtn{
+    display: inline-block;
+    width:144px;height:78px;
+    /*border:1px solid red;*/
+    position: absolute;
+    top:20px;
+    left:756px;
+}
+
+.shopCarCon .shopCarCon-cen .proInfo .jjbtn span{
+    display: inline-block;
+    width:16px;height:23px;
+    background:#f0f0f0;
+    border:1px solid #ccc;
+    border-right:none;
+    text-align: center;
+    line-height:23px;
+    font-weight: bold;
+}
+
+.shopCarCon .shopCarCon-cen .proInfo .jjbtn i{
+    display: inline-block;
+    width:50px;height:23px;
+    background:#fff;
+    border:1px solid #aaa;
+    text-align: center;
+    line-height:23px;
+}
+
+.shopCarCon .shopCarCon-cen .proInfo .jjbtn em{
+    display: inline-block;
+    width:16px;height:23px;
+    background:#f0f0f0;
+    border:1px solid #ccc;
+    border-left:none;
+    text-align: center;
+    line-height:23px;
+    font-weight: bold;
+}
+/*加减按钮的修饰----结束*/
+
+/*现价---开始*/
+.shopCarCon .shopCarCon-cen .proInfo .xPrice{
+    display: inline-block;
+    width:144px;height:78px;
+    /*border:1px solid black;*/
+    position: absolute;
+    top:20px;
+    left:955px;
+    font-size:14px;
+    font-weight:bold;
+    color:#f86374;
+}
+/*现价---结束*/
+
+/*删除按钮---开始*/
+.shopCarCon .shopCarCon-cen .proInfo button{
+    width:55px;height:25px;
+    text-align: center;
+    line-height: 25px;
+    position: absolute;
+    background:#fff;
+    border:1px solid #fff;
+    top:20px;left:1105px;
+    font-size:10px;
+    color:#000;
+    outline: none;
+}
+/*删除按钮---结束*/
+
+/*结算板块-----开始*/
+.jiesuan{
+    width:100%;height:60px;
+}
+
+.jiesuan .jiesuan-cen{
+    width:1200px;height:60px;
+    margin:0 auto;
+    margin-top:32px;
+    background:#f7f7f7;
+    font-size:12px;color:#000;
+    position: relative;
+}
+
+.jiesuan .jiesuan-cen input{
+    margin-left:10px;
+    margin-right:12px;
+    margin-top:25px;
+}
+
+.jiesuan .jiesuan-cen span{
+    margin-right:10px;
+    position: absolute;
+    top:23px;
+}
+
+.jiesuan .jiesuan-cen i{
+    margin-left:35px;
+    position: absolute;
+    top:23px;
+}
+
+.jiesuan .jiesuan-cen u{
+    margin-left:572px;
+    position: absolute;
+    top:23px;
+}
+
+.jiesuan .jiesuan-cen s{
+    margin-left:625px;
+    position: absolute;
+    top:23px;
+    text-decoration: none;
+}
+
+.jiesuan .jiesuan-cen a{
+    margin-left:645px;
+    position: absolute;
+    top:23px;color:#000;
+}
+
+.jiesuan .jiesuan-cen em{
+    margin-left:825px;
+    position: absolute;
+    top:23px;
+}
+
+.jiesuan .jiesuan-cen b{
+    margin-left:925px;
+    position: absolute;
+    top:16px;
+    font-size:20px;
+    color:#f8584f;
+}
+
+.jiesuan .jiesuan-cen strong{
+    margin-left:1049px;
+    height:60px;
+    display: inline-block;
+    background:red;
+    line-height:60px;
+    padding:0 20px;
+    font-size:24px;
+    color:#fff;
+}
+/*结算板块-----结束*/
+
+
+
+/*官方信息板块*/
+.offiInfo{
+    width:100%;min-height:100px;
+    border-bottom:1px solid #dcdcdc;
+}
+
+.offiInfo:after{/*万能清除法*/
+    content:".";
+    clear:both;
+    display:block;
+    height:0;
+    visibility:hidden;
+}
+
+.offiInfo .offiInfo-cen{
+    width:1200px;min-height: 100px;
+    margin:0 auto;
+    /*background:green;*/
+    padding-top:53px;
+    padding-bottom:40px;
+}
+
+.offiInfo .offiInfo-cen:after{/*万能清除法*/
+    content:".";
+    clear:both;
+    display:block;
+    height:0;
+    visibility:hidden;
+}
+
+.offiInfo .offiInfo-cen .qiansan img,.offiInfo .offiInfo-cen dl{
+    float:left;
+}
+
+.offiInfo .offiInfo-cen .qiansan img{
+    border-left:1px solid #dcdcdc;
+    border-top:1px solid #dcdcdc;
+    border-bottom:1px solid #dcdcdc;
+    vertical-align: middle;
+}
+
+.offiInfo .offiInfo-cen dl dt img{/*清除图片的默认三像素*/
+    vertical-align: middle;
+    
+    border-right:1px solid #dcdcdc;
+}
+
+.offiInfo .offiInfo-cen dl{
+    width:358px;height:238px;
+    border-left:1px solid #dcdcdc;
+    border-bottom:1px solid #dcdcdc;
+    border-right:1px solid #dcdcdc;
+    border-top:1px solid #dcdcdc;
+}
+
+.offiInfo .offiInfo-cen dl dt img{
+    border-bottom:1px solid #dcdcdc;
+}
+
+.offiInfo .offiInfo-cen dl div{
+    width:118px;height:60px;
+    float:left;
+    text-align: center;
+    margin-top:14px;
+    font-size:12px;
+    color:#9999a6;
+    font-weight:bold;
+    border-right:1px solid #dcdcdc;
+}
+
+.offiInfo .offiInfo-cen dl div p{
+    margin-top:10px;
+}
+
+.offiInfo .offiInfo-cen img:hover{
+    opacity:0.8;
+}
+
+/*底部信息*/
+.footer{
+    width:100%;height:290px;
+}
+
+.footer .footer-cen{
+    width:1200px;height:290px;
+    margin:0 auto;
+    /*background:red;*/
+}
+
+.footer .footer-title{
+    width:100%;height:39px;
+    background:#f7f7f7;
+
+}
+
+.footer .footer-title .footer-title-center{
+    width:1200px;height:39px;
+    margin:0 auto;
+    background:#f7f7f7;
+    line-height:39px;
+}
+
+.footer .footer-title .footer-title-center a{
+    font-size:12px;
+    color:#231815;
+    font-weight:bold;
+    margin-right:143px;
+}
+
+.footer .footer-cen .footer-list{
+    height:140px;
+    border-bottom:1px solid #999;
+}
+
+.footer .footer-cen .footer-list a{
+    font-size:12px;
+    color:#231815;
+}
+
+.footer .footer-cen .footer-list ul{
+    float:left;
+    margin-top:11px;
+    padding-bottom:22px;
+}
+
+.footer .footer-cen .footer-list ul li{
+    line-height:30px;
+}
+
+.footer .footer-cen p{
+    width:1200px;height:30px;
+    margin-top:24px;
+    text-align: center;
+    /*background:yellow;*/
+}
+
+.footer .footer-cen p span,.footer .footer-cen p a{
+    font-size:14px;
+    color:#787878;
+    font-weight:bold;
+}
+
+.footer .footer-cen .shangbiao{
+    text-align: center;
+}
+
+.footer .footer-cen .shangbiao img:hover{
+    opacity:0.8;
+}
+
+/*小火箭*/
+.huojian{
+    width:60px;height:auto;
+    position: fixed;
+    right:0;
+    bottom:0px;
+    z-index: 100;
+}
+
+.huojian:after{
+    content:".";
+    clear:both;
+    display:block;
+    height:0;
+    visibility:hidden;
+}
+
+.huojian a{
+    display: inline-block;
+    width:55px;height:85px;
+}
